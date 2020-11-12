@@ -1,0 +1,49 @@
+import React, { Component } from 'react';
+import NavbarMain from "./components/Navbar";
+
+import {
+    BrowserRouter as Router,
+    Link,
+    Route,
+    Switch,
+  } from 'react-router-dom';
+
+class Songkhla4 extends Component {
+
+    render() {  
+        return (
+        <div>
+             <NavbarMain />
+        <div class="topBanner" >
+        </div>
+        
+         <div id="bgNorth">
+         <br></br>
+            
+            <h1 align="center">Ton Nga Chang Waterfall</h1>
+            <div align="center">
+                <img src= "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/f6/63/9e/namtok-ton-nga-chang.jpg"  id="touristInfo" ></img>
+                <img src= "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/f6/63/9e/namtok-ton-nga-chang.jpg" id="touristInfo" ></img>
+                <img src= "https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03001646_1.jpeg"id="touristInfo" ></img>
+                <img src= "https://d2d3n9ufwugv3m.cloudfront.net/w1200-h900-cfill/topics/jvRnr-Ton%20Nga%20Chang%20Waterfall.jpg" id="touristInfo" ></img>
+            </div>
+            <h2 align="center" id="toKnow">-Thing to know-</h2>
+            <ul class="infoAttract">
+                <li>Address : Hat Yai, Songkhla Thailand</li>
+                <li>Tel : +66 7423 1055</li>
+                <li>Opening time : 8:00 - 17:00</li>
+                <li>Fee : -</li>
+                <li>Category : Nature</li>
+            </ul> 
+        </div>
+        </div>
+
+        
+
+       
+        
+        );
+    }
+}
+ 
+export default Songkhla4;

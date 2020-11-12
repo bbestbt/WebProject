@@ -1,0 +1,472 @@
+  
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+/* best */
+
+ body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input#userInput {
+  margin:10px;
+
+}
+h2#user{
+  margin-left: 20px;
+  display:inline;
+  font-size: 18px;
+
+}
+button#continue{
+  margin-left: 20px;
+  font-size: 18px;
+  background-color: skyblue;
+  border-radius: 12px;
+}
+
+
+h1#regis{
+  margin-left: 20px;
+  display:inline;
+  text-align:center;
+  font-size: 30px;
+
+  
+}
+div#info{
+  background-color: lightblue;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+
+}
+.topBanner{
+  background-color: lightgreen;
+  width: 100%;
+  height: 200px;
+  background-image: url('banner4.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; 
+}
+h1#recommend{
+
+  color:royalblue;
+  margin-left: 20px;
+  display:inline;
+  font-size: 30px;
+}
+.register-header{
+display: flex;
+justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  display: inline-block;
+
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;  width:500px;
+  min-width:500px;
+  height:300px; 
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+
+}
+
+.container:hover .place {
+  opacity: 0.5;
+  
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+.place{
+  border-radius: 8px;
+  margin:10px;
+  width:500px;
+  min-width:500px;
+  height:300px; 
+  display: block;
+
+  
+}
+.tourist-details{
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.tourist-details #details{
+ display: flex;
+}
+#placeInfo{
+  display:inline;
+  white-space:nowrap;
+}
+#location{
+  display:inline-flex;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#placeFav{
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-right: 30px;
+  display:inline;
+
+}
+
+#tourist1{ 
+  display:flex; 
+  justify-content: start;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+ 
+h3#details{
+  font-size: 20px;
+}
+
+h4#details{
+  font-size: 20px;
+} 
+
+
+ /* Jui */
+
+  .button2{
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #F5F280;
+    border-radius: 12px;
+    /* font-family: "Comic Sans MS", cursive, sans-serif; */
+  }
+  .button2:hover {background-color: #DCDA73}
+
+  .button2:active {
+    background-color: #DCDA73;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  div#info2{
+    background-color: lightblue;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+    #tourist2{
+    column-count: 2;
+    display:flex; 
+    flex-direction: column;
+  }
+  .tourist-details2{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+    .tourist-details2 #details{
+    display: flex;
+   }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 47.5%;
+    padding: 50px;
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   .right{
+    float: right;
+    width: 200px;
+    padding: 10px;
+  }
+  #province{
+    margin-left: 10px;
+  }
+  
+
+  /*best province*/
+  #provinceName{
+    border-style: dotted;
+    border-color: royalblue;
+    padding:5px;
+    border-width: thick;
+    
+
+  }
+ .placeProvince{
+  border-radius: 8px;
+  margin:20px;
+  margin-left: 150px;
+  /* width:500px;
+  min-width:500px;
+  height:300px;  */
+  display: inline-block;
+
+
+ }
+ #bgTak{
+background-color: lightblue;
+
+ }
+
+ #bgEast{
+background-color: #ffd1dc;
+}
+
+ #bgNorth{
+background-color: rgba(111, 228, 160, 0.705);
+
+ }
+ 
+ #bgNE{
+background-color: rgba(187, 122, 230, 0.897);
+ }
+
+.allPlace{
+  width:500px;
+  min-width:500px;
+  height:300px; 
+  
+}
+ 
+
+ #touristInfo{
+  border-radius: 8px;
+  margin:10px;
+  /* margin-left: 150px; */
+  width:500px;
+  min-width:500px;
+  height:300px; 
+  display: inline-block;
+ }
+
+ #toKnow{
+   margin-left: 20px;
+ }
+.infoAttract{
+  text-align: center;
+  font-size: 15px;
+  list-style: none;
+  
+}
+#bgPromo{
+  background-color: #ec9d98;
+  height: 552px;
+}
+
+#promo{
+  border-style: dotted;
+  border-width: thick;
+  border-color: red;
+  color: #d83c2d;
+}
+.promoImg{
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+#placePromo{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+#bgAttract{
+  background-color: #d1dcff;
+}
+
+#attract{
+  border-style: dotted;
+  border-width: thick;
+  border-color: #ff85a2;
+  color: orange;
+}
+
+.ticket{
+  border-style: solid;
+  background-color: #ff9eb5;
+  border-width: 5px;
+  color:purple ;
+  
+}
+
+.ticket:hover{
+  text-decoration: none;
+  background-color: #ff9eb5;
+  color: blue;
+}
+
+/* hotel */
+#bgHotel{
+  background-color: #74b3ce;
+}
+#hotel{
+border-style: dotted;
+border-width: thick;
+border-color: #0f52ba;
+color: #0047ab;
+}
+
+#bgFood{
+background-color: #fdee87;
+}
+#food{
+border-style: dotted;
+border-width: thick;
+border-color: #fda50f;
+color: #f9a602;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-left: 60px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+
+}
+
+.caption {
+  display: block;
+}
+
+#hotelInfo{
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+  display: inline-block;
+}
+
+
+div.allHotel{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-left: 60px;
+}
+
+div.discount{
+  background-color: coral;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+  display: inline-block;
+  position: fixed;
+}
+
+.price{
+  background-color: #f9a602;
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+ 
+}
+
+.oldPrice{
+  text-decoration: line-through;
+  color: red;
+}
+
+
+
+ div.gallery {
+  border: 1px solid #ccc;
+  margin: 20px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
