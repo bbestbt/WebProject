@@ -121,7 +121,7 @@ class App extends Component {
 
 
       <div className="App">
-        <NavbarMain />
+        {/* <NavbarMain /> */}
         <Home/>
          {/* <Router>
           <Home path="/" />

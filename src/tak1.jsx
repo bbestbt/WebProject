@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 import Data from "./data.json"
-import {
-    BrowserRouter as Router,
-    Link,
-    Route,
-    Switch,
-  } from 'react-router-dom';
+// import {
+//     BrowserRouter as Router,
+//     Link,
+//     Route,
+//     Switch,
+//   } from 'react-router-dom';
 
 class tak1 extends Component {
 
