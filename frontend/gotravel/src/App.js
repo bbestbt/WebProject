@@ -122,7 +122,7 @@ class App extends Component {
 
       <div className="App">
         {/* <NavbarMain /> */}
-        <Home/>
+        {/* <Home/> */}
          {/* <Router>
           <Home path="/" />
            <Tour path="tour" />
@@ -130,6 +130,7 @@ class App extends Component {
 
          {/* <Regis/>  */}
          {/* <Promo/> */}
+         <SignUpPage/>
 
         
       </div>
