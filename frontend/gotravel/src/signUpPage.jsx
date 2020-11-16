@@ -49,7 +49,7 @@ class signUpPage extends Component {
 
 
     state={
-        credentials: {username: '',password: ''}
+        credentials: {username: '',password: '',confirmPassword:''}
     }
 
     register= event=>{
@@ -59,12 +59,20 @@ class signUpPage extends Component {
             headers:{'Content-Type':'application/json'},
             body: JSON.stringify(this.state.credentials)
         })
-        .then(data=> data.json())
-        .then(
-            data=>{
-                console.log(data.token)
+        .then(function(response) {
+            if (!response.ok) {
+                window.alert("username already exist");
+                return
             }
-        ).catch(error => console.error(error))
+            window.location.href="/login"
+        })
+        // .then(
+        //     data=>{
+        //         console.log(data.token)
+                
+        //     }
+        // ).catch(error => console.error(error))
+        
     }
 
     inputChanged= event=>{
@@ -98,7 +106,7 @@ class signUpPage extends Component {
             
             </p>
             
-            <p align="center">
+            {/* <p align="center">
             <h2 id="user">Firstname</h2>
             <input id="userInput"  name='firstname' ></input>
             
@@ -107,7 +115,7 @@ class signUpPage extends Component {
             <h2 id="user">Lastname</h2>
             <input id="userInput"  name='lastname' ></input>
         
-            </p>
+            </p> */}
 
             <p align="center">
             <h2 id="user">Password</h2>
@@ -124,13 +132,14 @@ class signUpPage extends Component {
             <input id="userInput"  type="password" name='confirmPassword' 
             // value={this.state.confirmPassword} 
             // onChange={(event)=>this.handleChange(event)}
+  
               ></input>
         
             </p>
          
             <p align="center">
-            {/* <Link to="/Login"><button id="continue" >Continue</button></Link> */}
-            <button onClick={this.register} id="continue" >Continue</button>
+            <Link><button onClick={this.register} id="continue" >Signup</button></Link>
+            
             </p>
         </div>
         {/* </div> */}

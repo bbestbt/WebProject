@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
-import Data from "./data.json"
+// import Data from "./data.json"
 // import {
 //     BrowserRouter as Router,
 //     Link,
