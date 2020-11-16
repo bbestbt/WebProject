@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import NavbarMain from "./components/Navbar";
 import {
     BrowserRouter as Router,
     Link,
@@ -26,15 +26,17 @@ class signUpPage extends Component {
     // }
 
 
-    // checkPassword() {
-    //      if(!this.state.password || this.state.password != this.state.confirmPassword) {
-    //         // this.setState({password_has_error:true});
-    //         alert("password not match")
-    //     }
-    //     else {
-    //         // this.setState({password_has_error:false});
-    //     }
-    // }
+    checkPassword(password ,confirmPassword) {
+         if(password === confirmPassword) {
+            // this.setState({password_has_error:true});
+            alert("password match");
+            return true; 
+        }
+        else { alert("password not match")
+        return false;
+            // this.setState({password_has_error:false});
+        }
+    }
 
     // handleChange(event) {
     //     const { name, value } = event.target
@@ -53,19 +55,21 @@ class signUpPage extends Component {
     }
 
     register= event=>{
-     
-        fetch('http://127.0.0.1:8000/api/users/',{
-            method: 'POST',
-            headers:{'Content-Type':'application/json'},
-            body: JSON.stringify(this.state.credentials)
-        })
-        .then(function(response) {
-            if (!response.ok) {
-                window.alert("username already exist");
-                return
-            }
-            window.location.href="/login"
-        })
+        if(this.checkPassword(this.state.credentials.password,this.state.credentials.confirmPassword)){
+            fetch('http://127.0.0.1:8000/api/users/',{
+                method: 'POST',
+                headers:{'Content-Type':'application/json'},
+                body: JSON.stringify(this.state.credentials)
+            })
+            .then(function(response) {
+                if (!response.ok) {
+                    window.alert("username already exist");
+                    return
+                }
+                window.location.href="/login"
+            })
+        }
+       
         // .then(
         //     data=>{
         //         console.log(data.token)
@@ -85,6 +89,7 @@ class signUpPage extends Component {
     render() {  
         return (
         <div>
+            <NavbarMain />
         <div class="topBanner" >
             { <img src={require("./loco.png")} alt="loco"></img> }
         </div>
@@ -130,8 +135,8 @@ class signUpPage extends Component {
             <p align="center">
             <h2 id="user">Confirm password</h2>
             <input id="userInput"  type="password" name='confirmPassword' 
-            // value={this.state.confirmPassword} 
-            // onChange={(event)=>this.handleChange(event)}
+            value={this.state.credentials.confirmPassword} 
+             onChange={this.inputChanged}
   
               ></input>
         

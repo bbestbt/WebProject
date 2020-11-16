@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import NavbarMain from "./components/Navbar";
 // import {
 //     BrowserRouter as Router,
 //     Link,
@@ -12,6 +12,7 @@ class planTripPage extends Component {
     render() {  
         return (
         <div>
+            <NavbarMain />
         <div class="topBanner" >
     
         <img src={require("./loco.png")} alt="loco"></img>

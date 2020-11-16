@@ -27,15 +27,25 @@ class NavbarMain extends React.Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
+     login: false
     };
+    this.changeState = this.changeState.bind(this);
   }
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
+  changeState = () => {
+    this.setState({
+      login:!this.state.login
+    });
+  };
+
   render() {
+    // const { login } = this.props.login;
     return (
       <div>
         <Navbar
@@ -46,7 +56,7 @@ class NavbarMain extends React.Component {
           className="navDark"
         >
           <Container>
-            <NavbarBrand href="#">Thailand Travel</NavbarBrand>
+            <Link to ="/home"><NavbarBrand >Thailand Travel</NavbarBrand></Link>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
@@ -70,7 +80,7 @@ class NavbarMain extends React.Component {
                   <NavLink href="#contactBody">Contact</NavLink>
                 </NavItem>
 
-                  <Link to="/login"><Button color="success">Login</Button>{" "}</Link>
+                  <Link to="/login"><Button onClick={this.changeState} color="success">{this.state.login ? "Login" : " Log out"}</Button></Link>
                 
               </Nav>
             </Collapse>

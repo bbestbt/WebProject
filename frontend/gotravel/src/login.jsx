@@ -1,5 +1,5 @@
 import React,{ Component } from "react";
-// import NavbarMain from "./components/Navbar";
+import NavbarMain from "./components/Navbar";
 import {
     // BrowserRouter as Router,
     Link,
@@ -11,10 +11,9 @@ import {
 class login extends Component{
 
     state={
-        credentials: {username: '',password: ''}
+        credentials: {username: '',password: ''},
+        login: true, 
     }
-
-
     login= event=>{
         console.log(this.state.credentials);
         fetch('http://127.0.0.1:8000/auth/',{
@@ -27,7 +26,10 @@ class login extends Component{
                 window.alert("password not match");
                 return
             }
-            window.location.href="/home"
+            window.location.href="/home";
+            this.setState({
+                login:!this.state.login
+              });
         })
     //     .then(data=> data.json())
     //     .then(
@@ -53,7 +55,7 @@ class login extends Component{
     render(){
         return(
         <div>
-        {/* <NavbarMain /> */}
+        <NavbarMain/>
         <div class ="topBanner">
         </div>  
             <br></br>
