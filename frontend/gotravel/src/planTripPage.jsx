@@ -78,15 +78,15 @@ class planTripPage extends Component {
             </div>
         </div>
 
-       
+{/*        
         <p align="left">
         <img src={require("./favorites.png")} alt="fav" width="70" height="70"></img>
         <h1 id='recommend'>Your favourite place</h1>
-        </p>
+        </p> */}
 
 
-        <div class="container">
-        {/* <p align="left"> */}
+        {/* <div class="container">
+      
             <img src={require("./watNan.jpeg")} alt="watNan" class="place" ></img>
             <div class="overlay">
                 <div class="text">
@@ -94,14 +94,11 @@ class planTripPage extends Component {
                 <p>Nan</p>
                 </div>
             </div>
-        {/* </p> */}
-        {/* <p id="placeFav">Wat Nong Bua</p>
-        <img src={require("./location.png")} alt="location" width="30" height="30"  ></img>
-        <p id="location" >Nan</p> */}
-        </div>
+  
+        </div> */}
      
-        <div class="container">
-        {/* <p align="left"> */}
+        {/* <div class="container">
+     
         <img src={require("./NationalPark.jpeg")} alt="NationalPark" class="place" ></img>
         <div class="overlay">
                 <div class="text">
@@ -110,17 +107,14 @@ class planTripPage extends Component {
                 </div>
         </div> 
         
-        {/* </p> */}
-        {/* <p id="placeFav">Khlong Lan National Park</p>
-        <img src={require("./location.png")} alt="location" width="30" height="30"  ></img>
-        <p id="location" >Kamphaeng Phet</p> */}
-        </div>
-        <br></br>
+       
+        </div> */}
+        {/* <br></br>
         <hr></hr>
         <footer>
             <h2>credit</h2>
            
-        </footer>
+        </footer> */}
         <br></br>
         </div>
         );

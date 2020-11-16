@@ -460,6 +460,7 @@ import Yala2 from './Yala2'
 import Yala3 from './Yala3'
 import Yala4 from './Yala4'
 
+import Promo from './promotion';
 import Attract from './attractTicket'
 import Hotel from './hotelTicket'
 import Food from './foodTicket'
@@ -971,6 +972,7 @@ const rootElement = document.getElementById("root");
         <Route path="/Yala3" component={Yala3} />
         <Route path="/Yala4" component={Yala4} />
 
+        <Route path="/promo" component={Promo} />
         <Route path="/attractTicket" component={Attract} />
         <Route path="/hotelTicket" component={Hotel} />
         <Route path="/foodTicket" component={Food} />

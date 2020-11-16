@@ -61,11 +61,11 @@ class NavbarMain extends React.Component {
                 </NavItem>
                 <NavItem>
                   
-                  <Link to="/planTripPage"><NavLink href="#plantripBody">Promotion</NavLink></Link>
+                  <Link to="/Promo"><NavLink href="#plantripBody">Promotion</NavLink></Link>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                 <Link to="/addfav"><NavLink href="#servicesBody">Search</NavLink></Link>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
                   <NavLink href="#contactBody">Contact</NavLink>
                 </NavItem>

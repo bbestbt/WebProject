@@ -22,14 +22,22 @@ class login extends Component{
             headers:{'Content-Type':'application/json'},
             body: JSON.stringify(this.state.credentials)
         })
-        .then(data=> data.json())
-        .then(
-            data=>{
-                // console.log(data);
-                console.log(data.token)
-              
+        .then(function(response) {
+            if (!response.ok) {
+                window.alert("password not match");
+                return
             }
-        ).catch(error => console.error(error))
+            window.location.href="/home"
+        })
+    //     .then(data=> data.json())
+    //     .then(
+    //         data=>{
+    //             // console.log(data);
+    //             console.log(data.token)
+              
+    //         }
+    //     ).catch(error => console.error(error))
+    // }
     }
 
     
@@ -68,17 +76,15 @@ class login extends Component{
                         value={this.state.credentials.password}
                          onChange={this.inputChanged}></input>
                     </p>
-                    <p align = 'center'>
+                    {/* <p align = 'center'>
                         <input type='checkbox' keep = 'keepmelogin'></input>
                         Keep me logged in  &emsp;&emsp; <a href="https://www.google.co.th/?hl=th">Forgot Password?</a>
-                    </p>
+                    </p> */}
 
                     <p align="center">
                         <button onClick={this.login} id="continue">Log in</button>
                         {/* <Link to="/App"><button id="continue">Log in</button></Link> */}
                     </p>
-                    
-                    {/* <button onClick={this.register} id="continue">Register</button> */}
                 
                     <p align ='right'>
                         <Link to="/signUpPage"><button id="continue">Sign up</button></Link>&emsp;&emsp;
