@@ -477,6 +477,13 @@ import Food3 from './food3'
 import Food4 from './food4'
 import Food5 from './food5'
 
+import East from './east'
+import West from './west'
+import Northeast from './northeast'
+import North from './north'
+import South from './south'
+import Central from './central'
+
 import { BrowserRouter, Route, Switch , withRouter } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -989,6 +996,15 @@ const rootElement = document.getElementById("root");
         <Route path="/food3" component={Food3} />
         <Route path="/food4" component={Food4} />
         <Route path="/food5" component={Food5} />
+{/* province */}
+        <Route path="/north" component={North} />
+        <Route path="/northeast" component={Northeast} />
+        <Route path="/south" component={South} />
+        <Route path="/east" component={East} />
+        <Route path="/west" component={West} />
+        <Route path="/central" component={Central} />
+
+        
 {/* test */}
         <Route path="/Home" component={withRouter(Home)} />
         <Route path="/Regis" component={Regis} />

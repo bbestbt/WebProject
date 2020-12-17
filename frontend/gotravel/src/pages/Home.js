@@ -7,7 +7,7 @@ import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import NavbarMain from "../components/Navbar";
-
+import Province from '../province'
 class Home extends Component {
   render() {
     return (
@@ -15,6 +15,7 @@ class Home extends Component {
          <NavbarMain />
         <Hero />
         <About />
+        <Province/>
         {/* <Package /> */}
         {/* <Services /> */}
         <Contact />

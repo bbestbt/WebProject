@@ -271,7 +271,7 @@ background-color: rgba(111, 228, 160, 0.705);
  }
  
  #bgNE{
-background-color: rgba(187, 122, 230, 0.897);
+background-color: #c9cbff;
  }
 
  #bgCentral{
@@ -477,4 +477,119 @@ div.desc {
   display: table;
   clear: both;
 }
+/* 
+province */
 
+.zoom {
+  padding: 75px;
+  /* background-color: #ffe6e6; */
+  background-image: url('https://static.asiawebdirect.com/m/phuket/portals/thaiwave-com/homepage/ratchaburi/pagePropertiesImage/ratchaburi_1.jpg.jpg');
+  transition: transform .2s;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.zoom2 {
+  padding: 75px;
+  /* background-color: #ffe6e6; */
+  background-image: url("https://static.asiawebdirect.com/m/bangkok/portals/chiangmai-bangkok-com/shared/teasersL/top10-attractions/teaserMultiLarge/imageHilight/top-ten_cm.jpg");
+  transition: transform .2s;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+
+.zoom2:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.zoom3 {
+  padding: 75px;
+  /* background-color: #ffe6e6; */
+  background-image: url("https://www.fodors.com/wp-content/uploads/2019/04/HERO_BangkokTips_Hero_shutterstock_367503629.jpg");
+  transition: transform .2s;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+
+.zoom3:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.zoom4 {
+  padding: 75px;
+  /* background-color: #ffe6e6; */
+  background-image: url("https://pix10.agoda.net/hotelImages/10941/-1/241c3675c92bea71995a2e77385e6bf8.jpg?s=1024x768");
+  transition: transform .2s;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+
+.zoom4:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.zoom5 {
+  padding: 75px;
+  /* background-color: #ffe6e6; */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fd/Mu_Ko_Chumphon_National_Park_Chumphon_Thailand.jpg");
+  transition: transform .2s;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+
+.zoom5:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+.zoom6 {
+  padding: 75px;
+  /* background-color: #ffe6e6; */
+  background-image: url("https://i.pinimg.com/originals/56/d2/d3/56d2d32fc3de66d1211cd20e4b7aea9b.jpg");
+  transition: transform .2s;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  display: inline-block;
+  background-size: 100% 100%;
+  
+}
+
+.zoom6:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+#bgText{
+  background-color: white;
+}

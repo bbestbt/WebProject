@@ -110,9 +110,9 @@ import Northeast from './northeast'
 import North from './north'
 import South from './south'
 import Central from './central'
-import west from "./west";
 
 
+import Province from './province'
 
 
 class App extends Component {
@@ -122,7 +122,7 @@ class App extends Component {
 
       <div className="App">
         {/* <NavbarMain /> */}
-        {/* <Home/>  */}
+        <Home/> 
           {/* <Router>
           <Home path="/" />
            <Tour path="tour" />
@@ -131,12 +131,13 @@ class App extends Component {
          {/* <Regis/>  */}
          {/* <Promo/> */}
          {/* <SignUpPage/> */}
-         <West/>
+         {/* <West/>
          <East/>
          <Central/>
          <South/>
          <North/>
-         <Northeast/>
+         <Northeast/> */}
+         {/* <Province/> */}
 
         
       </div>
