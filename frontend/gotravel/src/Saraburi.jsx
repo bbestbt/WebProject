@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Link,
-    Route,
-    Switch,
+    // Route,
+    // Switch,
   } from 'react-router-dom';
 
 class rai extends Component {
@@ -17,13 +17,13 @@ class rai extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNorth">
+         <div id="bgCentral">
          <br></br>
         <div id="provinceName">
             <h1 align="center">Chiang Rai</h1>
         </div>
 
-        <div align="center">
+        {/* <div align="center"> */}
 
         <div class="placeProvince">
         <Link to="/rai1"> <img src="https://images.thrillophilia.com/image/upload/s--xde2w8wT--/c_fill,dpr_1.0,g_auto,h_450,w_753/v1/attractions/images/000/000/824/original/1554463057_shutterstock_91667066.jpg.jpg" alt="Wat Rong Khun" class="allPlace" ></img></Link>
@@ -60,7 +60,7 @@ class rai extends Component {
         </div>
 
         </div>
-        </div>
+        // </div>
   
         );
     }

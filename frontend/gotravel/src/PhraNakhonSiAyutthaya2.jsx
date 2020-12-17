@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 
-import {
-    BrowserRouter as Router,
-    Link,
-    Route,
-    Switch,
-  } from 'react-router-dom';
+// import {
+//     BrowserRouter as Router,
+//     Link,
+//     Route,
+//     Switch,
+//   } from 'react-router-dom';
 
 class PhraNakhonSiAyutthaya2 extends Component {
 
@@ -17,7 +17,7 @@ class PhraNakhonSiAyutthaya2 extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNorth">
+         <div id="bgCentral">
          <br></br>
             
             <h1 align="center">Tungbuachom Floating Market</h1>

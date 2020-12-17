@@ -16,7 +16,7 @@ class central extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgPromo">
+         <div id="bgCentral">
          <br></br>
         <div id="promo" class="register-header">
             {/* <img src={require("./promo/ticket.png")} width="60" height="60" ></img> */}

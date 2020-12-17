@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 
-import {
-    BrowserRouter as Router,
-    Link,
-    Route,
-    Switch,
-  } from 'react-router-dom';
+// import {
+//     BrowserRouter as Router,
+//     Link,
+//     Route,
+//     Switch,
+//   } from 'react-router-dom';
 
 class phayao4 extends Component {
 
@@ -17,7 +17,7 @@ class phayao4 extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNorth">
+         <div id="bgCentral">
          <br></br>
             
             <h1 align="center">Mae Puem National Park</h1>

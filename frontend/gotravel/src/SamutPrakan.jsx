@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Link,
-    Route,
-    Switch,
+    // Route,
+    // Switch,
   } from 'react-router-dom';
 
 class pang extends Component {
@@ -17,13 +17,13 @@ class pang extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNorth">
+         <div id="bgCentral">
          <br></br>
         <div id="provinceName">
             <h1 align="center">Lampang</h1>
         </div>
-
-        <div align="center">
+{/* 
+        <div align="center"> */}
 
         <div class="placeProvince">
         <Link to="/pang1"> <img src="https://www.mychiangmaitravel.com/wp-content/uploads/2018/10/Wat-Lai-Hin-Luang003.jpg" alt="Wat Lai Hin" class="allPlace" ></img></Link>
@@ -62,7 +62,7 @@ class pang extends Component {
         </div>
 
         </div>
-        </div>
+        // </div>
 
         
 

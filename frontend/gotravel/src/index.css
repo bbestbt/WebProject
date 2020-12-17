@@ -274,6 +274,13 @@ background-color: rgba(111, 228, 160, 0.705);
 background-color: rgba(187, 122, 230, 0.897);
  }
 
+ #bgCentral{
+  background-color:#ffda77
+   }
+
+#bgSouth{
+background-color:#a7c5eb
+ }
 .allPlace{
   width:500px;
   min-width:500px;

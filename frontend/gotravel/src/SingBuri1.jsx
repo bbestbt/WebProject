@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 
-import {
-    BrowserRouter as Router,
-    Link,
-    Route,
-    Switch,
-  } from 'react-router-dom';
+// import {
+//     BrowserRouter as Router,
+//     Link,
+//     Route,
+//     Switch,
+//   } from 'react-router-dom';
 
 class phayao1 extends Component {
 
@@ -17,7 +17,7 @@ class phayao1 extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNorth">
+         <div id="bgCentral">
          <br></br>
             
             <h1 align="center">Wat Phra That Su Thon Mongkhon Khiri</h1>

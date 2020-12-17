@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Link,
-    Route,
-    Switch,
+    // Route,
+    // Switch,
   } from 'react-router-dom';
 
 class phayao extends Component {
@@ -17,13 +17,13 @@ class phayao extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNorth">
+         <div id="bgCentral">
          <br></br>
         <div id="provinceName">
             <h1 align="center">Phayao</h1>
         </div>
 
-        <div align="center">
+        {/* <div align="center"> */}
 
         <div class="placeProvince">
         <Link to="/phayao1"> <img src="https://mychiangmaitour.com/wp-content/uploads/2019/05/phu_sang_national_park01.jpg" alt="Phu Sang National Park" class="allPlace" ></img></Link>
@@ -62,7 +62,7 @@ class phayao extends Component {
         </div>
 
         </div>
-        </div>
+        // </div>
 
         
 
