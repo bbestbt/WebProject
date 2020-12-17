@@ -6,7 +6,10 @@ import {
     // Route,
     // Switch,
   } from 'react-router-dom';
-
+ import maekasa from "./west/maekasa.jpg"
+ import t2 from "./west/tak2.jpeg"
+ import t3 from "./west/tak2.jpeg"
+ import t4 from "./west/tak2.jpeg"
 class tak extends Component {
 
     render() {  
@@ -23,7 +26,7 @@ class tak extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/tak1"> <img src={require("./west/maekasa.jpg")} alt="mae kasa" class="allPlace" ></img></Link>
+        <Link to="/tak1"> <img src={maekasa} alt="mae kasa" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Mae Kasa Hot Spring</h6>
@@ -33,7 +36,7 @@ class tak extends Component {
 
 
         <div class="placeProvince">
-        <Link to="/tak2"> <img src={require("./west/tak2.jpeg")} alt="Thi Lor Su Waterfall" class="allPlace"  ></img></Link>
+        <Link to="/tak2"> <img src={t2} alt="Thi Lor Su Waterfall" class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Thi Lor Su Waterfall</h6>
@@ -43,7 +46,7 @@ class tak extends Component {
 
 
         <div class="placeProvince">
-        <Link to="/tak3"> <img src={require("./west/tak3.jpeg")} alt="Bhumibol Dam"  class="allPlace"  ></img></Link>
+        <Link to="/tak3"> <img src={t3} alt="Bhumibol Dam"  class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Bhumibol Dam</h6>
@@ -53,7 +56,7 @@ class tak extends Component {
 
 
         <div class="placeProvince">
-        <Link to="/tak4"> <img src={require("./west/tak4.jpg")} alt="Doi Thule"  class="allPlace"   ></img></Link>
+        <Link to="/tak4"> <img src={t4} alt="Doi Thule"  class="allPlace"   ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Doi Thule</h6>

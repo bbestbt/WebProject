@@ -6,6 +6,7 @@ import {
     // Route,
     // Switch,
   } from 'react-router-dom';
+  import logo from './logo.png';
 
   
 class login extends Component{
@@ -60,7 +61,7 @@ class login extends Component{
         </div>  
             <br></br>
                 <div align = 'center' id='info2'>
-                    <img src ={require("./logo.png")} alt= "logo"></img>
+                    <img src ={logo} alt= "logo"></img>
                     
                     <p align = 'center'>
                         <h1 >Log in to gotravel</h1>

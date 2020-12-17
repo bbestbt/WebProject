@@ -6,7 +6,7 @@ import {
     // Route,
     // Switch,
 } from 'react-router-dom';
-
+import food from "./promo/food.png"
 class foodTicket extends Component {
 
     render() {
@@ -19,7 +19,7 @@ class foodTicket extends Component {
                 <div id="bgFood">
                     <br></br>
                     <div id="food" class="register-header">
-                        <img src={require("./promo/food.png")} width="60" height="60" ></img>
+                        <img src={food} width="60" height="60" ></img>
                         <h1 align="center">Restaurant discount</h1>
                     </div>
 

@@ -131,6 +131,8 @@ class App extends Component {
          {/* <Regis/>  */}
          {/* <Promo/> */}
          {/* <SignUpPage/> */}
+         <West/>
+         <East/>
 
         
       </div>

@@ -7,6 +7,8 @@ import {
     // Switch,
   } from 'react-router-dom';
 
+import hotel from "./promo/hotel2.png"
+import h1  from "./promo/h1.jpg"
 class hotelTicket extends Component {
     
     render() { 
@@ -19,7 +21,7 @@ class hotelTicket extends Component {
          <div id="bgHotel">
          <br></br>
         <div id="hotel" class="register-header">
-            <img src={require("./promo/hotel2.png")} width="60" height="60" ></img>
+            <img src={hotel} width="60" height="60" ></img>
             <h1 align="center"> Hotel deal</h1>
         </div>
         
@@ -27,7 +29,7 @@ class hotelTicket extends Component {
             <br></br>
             <div align="center" >
                 <div class="allHotel">
-                    <Link to="/hotel1"> <img src={require("./promo/h1.jpg")} class="promoImg"  ></img></Link>
+                    <Link to="/hotel1"> <img src={h1} class="promoImg"  ></img></Link>
                     <h4 class="caption" >El barrio lanna hotel</h4>
                 </div>
 

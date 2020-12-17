@@ -7,7 +7,7 @@ import {
     Switch,
   } from 'react-router-dom';
 
-
+import regis from "./regis.png"
 
 class signUpPage extends Component {
    
@@ -100,7 +100,7 @@ class signUpPage extends Component {
         <div id="info">
            
             <div class= "register-header">  
-                <img src={require("./regis.png")} alt="register"  width="30" height="40" class="register" ></img>
+                <img src={regis} alt="register"  width="30" height="40" class="register" ></img>
                 <h1 id='regis'>Register</h1>
             </div>
             <p align="center">

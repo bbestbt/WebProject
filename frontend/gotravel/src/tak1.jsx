@@ -22,10 +22,10 @@ class tak1 extends Component {
             
             <h1 align="center">Mae Kasa Hot Spring</h1>
             <div align="center">
-                <img src={require("./west/maekasa.jpg")} alt="mae kasa" id="touristInfo" ></img>
-                <img src={require("./west/tak12.jpg")} alt="mae kasa" id="touristInfo" ></img>
-                <img src={require("./west/tak13.jpg")} alt="mae kasa" id="touristInfo" ></img>
-                <img src={require("./west/tak14.jpg")} alt="mae kasa" id="touristInfo" ></img>
+                <img src={require("./west/maekasa.jpg")}  id="touristInfo" ></img>
+                <img src={require("./west/tak12.jpg")}  id="touristInfo" ></img>
+                <img src={require("./west/tak13.jpg")}  id="touristInfo" ></img>
+                <img src={require("./west/tak14.jpg")}  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

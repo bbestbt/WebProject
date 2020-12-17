@@ -6,6 +6,11 @@ import NavbarMain from "./components/Navbar";
 //     Route,
 //     Switch,
 //   } from 'react-router-dom';
+import location from "./location.png"
+import recommended from "./recommended.png"
+import chaiyaphum from "./chaiyaphum.jpeg"
+import buriram from "./buriram.jpeg"
+import Samutsongkhram from "./Samutsongkhram.jpeg"
 
 class planTripPage extends Component {
 
@@ -18,15 +23,15 @@ class planTripPage extends Component {
         </div>
          <br></br>
         <p align="left">
-        <img src={require("./recommended.png")} alt="lrecommend" width="70" height="70"></img>
+        <img src={recommended} alt="recommend" width="70" height="70"></img>
         <h1 id='recommend'>Recommended Trip</h1>
         </p>
 
         <div id="tourist1">
-            <img src={require("./chaiyaphum.jpeg")} alt="chaiyaphum" class="place" ></img>
+            <img src={chaiyaphum} alt="chaiyaphum" class="place" ></img>
             <div class= "tourist-details">
                 <div id="icon-with-location">
-                    <img src={require("./location.png")} alt="location" width="30" height="30"  ></img>
+                    <img src={location} alt="location" width="30" height="30"  ></img>
                     <p id="location"  >Chaiyaphum 2 Days</p>
                 </div>
                 <h3 id="details">Plan’s Outline</h3>
@@ -40,10 +45,10 @@ class planTripPage extends Component {
         </div>
 
         <div id="tourist1">
-            <img src={require("./buriram.jpeg")} alt="buriram" class="place" ></img>
+            <img src={buriram} alt="buriram" class="place" ></img>
             <div class= "tourist-details">
                 <div id="icon-with-location">
-                    <img src={require("./location.png")} alt="location" width="30" height="30"  ></img>
+                    <img src={location} alt="location" width="30" height="30"  ></img>
                     <p id="location"  >Buri Ram - Surin 3 Days</p>
                 </div>
 
@@ -61,10 +66,10 @@ class planTripPage extends Component {
         </div>
 
         <div id="tourist1">
-            <img src={require("./Samutsongkhram.jpeg")} alt="Samutsongkhram" class="place" ></img>
+            <img src={Samutsongkhram} alt="Samutsongkhram" class="place" ></img>
             <div class= "tourist-details">
                 <div id="icon-with-location">
-                    <img src={require("./location.png")} alt="location" width="30" height="30"  ></img>
+                    <img src={location} alt="location" width="30" height="30"  ></img>
                     <p id="location"  >Samut Songkhram 2 Days</p>
                 </div>
                 <h3 id="details">Plan’s Outline</h3>

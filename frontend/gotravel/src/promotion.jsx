@@ -6,6 +6,10 @@ import {
     // Route,
     // Switch,
   } from 'react-router-dom';
+import ticket from "./promo/ticket.png"
+import farm from "./promo/farm.jpg"
+import hotel from "./promo/hotel.jpg"
+import restaurant from "./promo/restaurant.jpg"
 
 class promotion extends Component {
     
@@ -19,7 +23,7 @@ class promotion extends Component {
          <div id="bgPromo">
          <br></br>
         <div id="promo" class="register-header">
-            <img src={require("./promo/ticket.png")} width="60" height="60" ></img>
+            <img src={ticket} width="60" height="60" ></img>
             <h1 align="center"> Promotion for this month!</h1>
         </div>
         
@@ -27,17 +31,17 @@ class promotion extends Component {
             <br></br>
   
                 <div class="item">
-                <Link to="/attractTicket"><img src={require("./promo/farm.jpg")} class="promoImg"  ></img></Link>
+                <Link to="/attractTicket"><img src={farm} class="promoImg"  ></img></Link>
                     <h4 class="caption" >ATTRACTION</h4>
                 </div>
                 
                 <div class="item">
-                <Link to="/hotelTicket"> <img src={require("./promo/hotel.jpg")} class="promoImg"  ></img></Link>
+                <Link to="/hotelTicket"> <img src={hotel} class="promoImg"  ></img></Link>
                     <h4 class="caption" >HOTEL</h4>
                 </div>
                
                <div class="item">
-               <Link to="/foodTicket"> <img src={require("./promo/restaurant.jpg")} class="promoImg"  ></img></Link>
+               <Link to="/foodTicket"> <img src={restaurant} class="promoImg"  ></img></Link>
                     <h4 class="caption">RESTAURANT</h4>
                 </div>
             </div>
