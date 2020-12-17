@@ -91,7 +91,7 @@ class signUpPage extends Component {
         <div>
             <NavbarMain />
         <div class="topBanner" >
-            { <img src={require("./loco.png")} alt="loco"></img> }
+            { <img src={require("./logo.png")} alt="logo"></img> }
         </div>
         {/* <div id="bgRegis"> */}
         <br></br>

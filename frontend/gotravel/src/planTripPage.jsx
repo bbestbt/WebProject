@@ -14,9 +14,7 @@ class planTripPage extends Component {
         <div>
             <NavbarMain />
         <div class="topBanner" >
-    
-        <img src={require("./loco.png")} alt="loco"></img>
-        
+      
         </div>
          <br></br>
         <p align="left">

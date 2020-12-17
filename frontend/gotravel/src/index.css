@@ -303,7 +303,8 @@ background-color: rgba(187, 122, 230, 0.897);
 }
 #bgPromo{
   background-color: #ec9d98;
-  height: 552px;
+  /* height: 552px; */
+
 }
 
 #promo{

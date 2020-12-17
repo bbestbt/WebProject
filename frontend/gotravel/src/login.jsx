@@ -60,7 +60,7 @@ class login extends Component{
         </div>  
             <br></br>
                 <div align = 'center' id='info2'>
-                    <img src ={require("./loco.png")} alt= "loco"></img>
+                    <img src ={require("./logo.png")} alt= "logo"></img>
                     
                     <p align = 'center'>
                         <h1 >Log in to gotravel</h1>

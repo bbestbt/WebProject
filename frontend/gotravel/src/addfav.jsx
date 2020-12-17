@@ -12,7 +12,7 @@ class addfav extends Component{
         return(
         <div>
             <div class ="topBanner">
-                <img src ={require("./loco.png")} alt= "loco"></img>
+                <img src ={require("./logo.png")} alt= "logo"></img>
             </div>
             <p>
                 <h1 id='province'>Bangkok</h1>
