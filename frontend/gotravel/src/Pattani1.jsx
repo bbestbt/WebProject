@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
-import {
-    BrowserRouter as Router,
-    Link,
-    Route,
-    Switch,
-  } from 'react-router-dom';
+// import {
+//     BrowserRouter as Router,
+//     Link,
+//     Route,
+//     Switch,
+//   } from 'react-router-dom';
 
 class Pattani1 extends Component {
 
@@ -16,7 +16,7 @@ class Pattani1 extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNE">
+         <div id="bgSouth">
          <br></br>
             
             <h1 align="center">Princess GalyaniVadhana Institute Of Cultural Studies</h1>

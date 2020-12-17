@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Link,
-    Route,
-    Switch,
+    // Route,
+    // Switch,
   } from 'react-router-dom';
 
 class Krabi extends Component {
@@ -16,12 +16,12 @@ class Krabi extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNE">
+         <div id="bgSouth">
          <br></br>
         <div id="provinceName">
             <h1 align="center">Krabi</h1>
         </div>
-        <div align="center">
+        {/* <div align="center"> */}
 
         <div class="placeProvince">
         <Link to="/Krabi1"> <img src="https://cache-graphicslib.viator.com/graphicslib/page-images/742x525/295580_Viator_Shutterstock_169946.jpg" class="allPlace" ></img></Link>
@@ -54,7 +54,7 @@ class Krabi extends Component {
         </div>
 
         </div>
-        </div>
+        // </div>
 
 
         );

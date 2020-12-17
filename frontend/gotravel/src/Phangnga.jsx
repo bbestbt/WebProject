@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Link,
-    Route,
-    Switch,
+    // Route,
+    // Switch,
   } from 'react-router-dom';
 
 class Phangnga extends Component {
@@ -16,13 +16,13 @@ class Phangnga extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNE">
+         <div id="bgSouth">
          <br></br>
         <div id="provinceName">
             <h1 align="center">Phangnga</h1>
         </div>
 
-        <div align="center">
+        {/* <div align="center"> */}
 
         <div class="placeProvince">
         <Link to="/Phangnga1"> <img src="https://www.khaolaktransfer.net/wp-content/uploads/2018/09/Phang-Nga-Bay-National-Park-Thailand-002-1.jpg" class="allPlace" ></img></Link>
@@ -54,7 +54,7 @@ class Phangnga extends Component {
         </div>
 
         </div>
-        </div>
+        // </div>
 
 
         );

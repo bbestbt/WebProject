@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
-import {
-    BrowserRouter as Router,
-    Link,
-    Route,
-    Switch,
-  } from 'react-router-dom';
+// import {
+//     BrowserRouter as Router,
+//     Link,
+//     Route,
+//     Switch,
+//   } from 'react-router-dom';
 
 class Satun1 extends Component {
 
@@ -16,7 +16,7 @@ class Satun1 extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNE">
+         <div id="bgSouth">
          <br></br>
             
             <h1 align="center">Mu Ko Phetra National Park</h1>

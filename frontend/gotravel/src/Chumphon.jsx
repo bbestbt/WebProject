@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Link,
-    Route,
-    Switch,
+    // Route,
+    // Switch,
   } from 'react-router-dom';
 
 class Chumphon extends Component {
@@ -16,12 +16,12 @@ class Chumphon extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNE">
+         <div id="bgSouth">
          <br></br>
         <div id="provinceName">
             <h1 align="center">Chumphon</h1>
         </div>
-        <div align="center">
+        {/* <div align="center"> */}
 
         <div class="placeProvince">
         <Link to="/Chumphon1"> <img src="https://thailandtourismdirectory.go.th/th/file/get/file/2018080967deedc0d028df59d364f0570fef24f4134304.jpg" class="allPlace" ></img></Link>
@@ -54,7 +54,7 @@ class Chumphon extends Component {
         </div>
 
         </div>
-        </div>
+        // </div>
 
 
         );

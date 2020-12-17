@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Link,
-    Route,
-    Switch,
+    // Route,
+    // Switch,
   } from 'react-router-dom';
 
 class Yala extends Component {
@@ -17,13 +17,13 @@ class Yala extends Component {
         <div class="topBanner" >
         </div>
         
-         <div id="bgNorth">
+         <div id="bgSouth">
          <br></br>
         <div id="provinceName">
             <h1 align="center">Yala</h1>
         </div>
-        
-        <div align="center">
+{/*         
+        <div align="center"> */}
 
         <div class="placeProvince">
             <Link to="/Yala1"> <img src="https://mpics.mgronline.com/pics/Images/558000001835401.JPEG" class="allPlace" ></img></Link>
@@ -62,7 +62,7 @@ class Yala extends Component {
         
 
         </div>
-        </div>
+        // </div>
         );
     }
 }
