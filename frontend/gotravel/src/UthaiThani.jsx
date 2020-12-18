@@ -7,7 +7,7 @@ import {
     // Switch,
   } from 'react-router-dom';
 
-class ratcha extends Component {
+class UthaiThani extends Component {
 
     render() {  
         return (
@@ -19,36 +19,36 @@ class ratcha extends Component {
          <div id="bgCentral">
          <br></br>
         <div id="provinceName">
-            <h1 align="center">Nakhon Ratchasima</h1>
+            <h1 align="center">Uthai Thani</h1>
         </div>
         {/* <div align="center"> */}
 
         <div class="placeProvince">
-        <Link to="/ratcha1"> <img src="https://thai-rest.com/wp-content/uploads/2018/10/Cambodia-in-Thailand-Phimai-Historical-Park.jpg" class="allPlace" ></img></Link>
+        <Link to="/UthaiThani1"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03012823_1.jpeg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Phimai Historical Park</h6>    
+            <h6 align="center">Wat Uposatharam</h6>    
         </div>
     
         <div class="placeProvince">
-        <Link to="/ratcha2"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013299_1.jpeg" class="allPlace" ></img></Link>
+        <Link to="/UthaiThani2"> <img src="https://ak.picdn.net/shutterstock/videos/23084335/thumb/1.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Sala Loi</h6>    
+            <h6 align="center">Wat Sangkat Rattana Khiri</h6>    
         </div>
 
         <div class="placeProvince">
-        <Link to="/ratcha3"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/d9/aa/89/view-point-of-lamtakong.jpg" class="allPlace" ></img></Link>
+        <Link to="/UthaiThani3"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03012820_1.jpeg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Lamtakhong Dam</h6>                
+            <h6 align="center">Wat Chantaram</h6>                
         </div>
 
         <div class="placeProvince">
-        <Link to="/ratcha4"> <img src="https://lh3.googleusercontent.com/proxy/WVZkMLwbKLNuo5pw-G4H4vy8J7C9QciuCtccj9cL6zr4ciR2BDKUIN1nV-o_9gBlFJQrY8mAcwjcVXoch1O7V_9vTGArQioHREH9YwNvOtGxzpzcuTCsW_F9ASs" class="allPlace" ></img></Link>
+        <Link to="/UthaiThani4"> <img src="https://www.thailandforfarang.com/assets/wat-tham-khao-wong-front1.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Bung Ta Lua Water Park</h6>    
+            <h6 align="center">Wat Tam Khaowong</h6>    
         </div>
         </div>
 
@@ -60,4 +60,4 @@ class ratcha extends Component {
     }
 }
  
-export default ratcha;
+export default UthaiThani;

@@ -8,7 +8,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class phun2 extends Component {
+class SuphanBuri2 extends Component {
 
     render() {  
         return (
@@ -20,19 +20,19 @@ class phun2 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Wat Doi Ti</h1>
+            <h1 align="center">Wat Phra Si Rattana Mahathat</h1>
             <div align="center">
-                <img src="https://www.temple-thai.com/wp-content/uploads/2017/12/wat-doi-ti-17.jpg"  id="touristInfo" ></img>
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/f3/29/5d/caption.jpg"  id="touristInfo" ></img>
-                <img src="https://ak.picdn.net/shutterstock/videos/1014131516/thumb/1.jpg"  id="touristInfo" ></img>
-                <img src="https://www.temple-thai.com/wp-content/uploads/2017/12/wat-doi-ti-4.jpg"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03005447_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Phra_Phuttha_Chinnarat_%28II%29.jpg/1200px-Phra_Phuttha_Chinnarat_%28II%29.jpg"  id="touristInfo" ></img>
+                <img src="https://www.timsthailand.com/wp-content/uploads/2019/03/wat-phra-si-rattana-mahathat-chaliang.jpg"  id="touristInfo" ></img>
+              
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : Tambon Pa Sak, Mueang Lamphun District, Lamphun Province, Thailand </li>
+                <li>Address : Mueang Suphan Buri, Suphan Buri </li>
                 <li>Tel : -</li>
-                <li>Opening time : 8.00 am. to 5.00pm</li>
-                <li>Fee : 15 Baht </li>
+                <li>Opening time : 08:00 - 17:00</li>
+                <li>Fee : - Baht </li>
                 <li>Category : Temple</li>
             </ul> 
         </div>
@@ -41,4 +41,4 @@ class phun2 extends Component {
     }
 }
  
-export default phun2;
+export default SuphanBuri2;

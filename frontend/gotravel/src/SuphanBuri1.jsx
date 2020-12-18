@@ -8,7 +8,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class phun1 extends Component {
+class SuphanBuri1 extends Component {
 
     render() {  
         return (
@@ -20,21 +20,19 @@ class phun1 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Wat Phra That Hariphunchai</h1>
+            <h1 align="center">Sam Chuk Old Market</h1>
             <div align="center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/WAT_PHRATHAT_HARIPHUNCHAI_02.jpg"  id="touristInfo" ></img>
-                <img src="https://www.lamphun.go.th/uploads/gallery/attractions/8/IMG_0034.jpg"  id="touristInfo" ></img>
-                <img src="https://www.lamphun.go.th/uploads/gallery/attractions/8/IMG_0128.jpg"  id="touristInfo" ></img>
-                <img src="https://www.lamphun.go.th/uploads/gallery/attractions/8/IMG_0056.jpg"  id="touristInfo" ></img>
-
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03003386_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://static.smarttravelapp.com/data/pois/3296_samchuk_1490087484.jpg"  id="touristInfo" ></img>
+           
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : Inthayongyot road (Highway 106) Lamphun</li>
-                <li>Tel : +66 5331 1104 </li>
-                <li>Opening time :  06:00 -18:00</li>
-                <li><span>Fee : 20 Baht </span></li>
-                <li>Category : Temple</li>
+                <li>Address : Sam Chuk, Suphan Buri</li>
+                <li>Tel : +66 3557 1571 </li>
+                <li>Opening time :  08:00 - 16:00</li>
+                <li><span>Fee : - Baht </span></li>
+                <li>Category : Local Experience</li>
             </ul> 
         </div>
         </div>
@@ -42,4 +40,4 @@ class phun1 extends Component {
     }
 }
  
-export default phun1;
+export default SuphanBuri1;

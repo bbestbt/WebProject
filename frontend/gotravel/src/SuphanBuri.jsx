@@ -8,7 +8,7 @@ import {
     // Switch,
   } from 'react-router-dom';
 
-class phun extends Component {
+class SuphanBuri extends Component {
 
     render() {  
         return (
@@ -20,42 +20,42 @@ class phun extends Component {
          <div id="bgCentral">
          <br></br>
         <div id="provinceName">
-            <h1 align="center">Lamphun</h1>
+            <h1 align="center">Suphan Buri</h1>
         </div>
 
         {/* <div align="center"> */}
 
         <div class="placeProvince">
-        <Link to="/phun1"> <img src="https://mychiangmaitour.com/wp-content/images/temple/phrathat_hariphunchai_temple001.jpg" alt="Wat Phra That2" class="allPlace" ></img></Link>
+        <Link to="/SuphanBuri1"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03003386_1.jpeg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Phra That Hariphunchai</h6>          
+            <h6 align="center">Sam Chuk Old Market</h6>          
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/phun2"> <img src="https://temple-thai.com/wp-content/uploads/2017/12/wat-doi-ti-1.jpg" alt=">Wat Doi Ti" class="allPlace"  ></img></Link>
+        <Link to="/SuphanBuri2"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03005447_1.jpeg" class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Doi Ti</h6>
+            <h6 align="center">Wat Phra Si Rattana Mahathat</h6>
  
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/phun3"> <img src="https://www.lamphun.go.th/uploads/gallery/attractions/14/IMG_0018.jpg" alt="Wat Phra Yuen"  class="allPlace"  ></img></Link>
+        <Link to="/SuphanBuri3"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03000398_1.jpeg" class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Phra Yuen</h6>
+            <h6 align="center">Don Chedi Monument</h6>
 
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/phun4"> <img src="https://mychiangmaitour.com/wp-content/uploads/2018/08/hariphunchai-national-museum04.jpg" alt="Hariphunchai"  class="allPlace"   ></img></Link>
+        <Link to="/SuphanBuri4"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03012928_1.jpeg"  class="allPlace"   ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Hariphunchai National Museum</h6>
+            <h6 align="center">Bueng Nong Sarai Histrorical Site</h6>
                 
         </div>
         </div>
@@ -66,4 +66,4 @@ class phun extends Component {
     }
 }
  
-export default phun;
+export default SuphanBuri;

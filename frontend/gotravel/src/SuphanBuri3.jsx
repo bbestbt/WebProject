@@ -8,7 +8,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class phun3 extends Component {
+class SuphanBuri3 extends Component {
 
     render() {  
         return (
@@ -20,20 +20,19 @@ class phun3 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Wat Phra Yuen</h1>
+            <h1 align="center">Don Chedi Monument</h1>
             <div align="center">
-                <img src="https://mychiangmaitour.com/wp-content/images/lamphun/wat_phra_yuen02.jpg"  id="touristInfo" ></img>
-                <img src="https://mychiangmaitour.com/wp-content/uploads/2018/08/wat_phra_yuen08.jpg"  id="touristInfo" ></img>
-                <img src="https://static.smarttravelapp.com/data/pois/503_phrayuen_1483241400.jpg"  id="touristInfo" ></img>
-                <img src="https://sanuksanuk.files.wordpress.com/2011/07/img_4957.jpg"  id="touristInfo" ></img>    
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03000398_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://patricklepetit.jalbum.net/SUPHANBURI/PHOTOS/DON%20CHEDI/Don%20Chedi%20Monument/L0813628_resize.jpg"  id="touristInfo" ></img>
+           
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : Amphoe Mueang, Lamphun Thailand</li>
-                <li>Tel : +66 5581 6583 </li>
-                <li>Opening time : 8 am until 6 pm.</li>
+                <li>Address : Don Chedi, Suphan Buri</li>
+                <li>Tel : - </li>
+                <li>Opening time : 06:00 - 18:00</li>
                 <li>Fee : -</li>
-                <li>Category : Temple</li>
+                <li>Category : Art, Culture, Heritage</li>
             </ul> 
         </div>
         </div>
@@ -42,4 +41,4 @@ class phun3 extends Component {
     }
 }
  
-export default phun3;
+export default SuphanBuri3;
