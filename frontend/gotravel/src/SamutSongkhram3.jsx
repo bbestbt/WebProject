@@ -7,7 +7,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class phanom3 extends Component {
+class SamutSongkhram3 extends Component {
 
     render() {  
         return (
@@ -19,18 +19,17 @@ class phanom3 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Wat Phra That Phanom</h1>
+            <h1 align="center">Wat Yi San</h1>
             <div align="center">
-                <img src="https://www.publicdomainpictures.net/pictures/340000/velka/wat-phra-that-phanom-temple-nakhon-phanom-thailand-1588673558LH4.jpg"  id="touristInfo" ></img>
-                <img src="https://patricklepetit.jalbum.net/NAKHON%20PHANOM/PHOTOS/THAT%20PHANOM/Wat%20Phra%20That%20Phanom/K1202185_resize.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/K3zpjMKYEDmov8S_PClvyH9vino7n3RBzD4-xHR2dkqh3Jrc6_jGfLo-0lItvOT3obE5-oaO6Bx12GgNFefs8XMIBT-Ndw1PzVEqPKssbbq5dXJf1I1SwY-0zJG4nYHN8FMDRfBO826R"  id="touristInfo" ></img>
-                <img src="https://previews.123rf.com/images/fordzolo/fordzolo1412/fordzolo141200889/34780599-wat-phra-that-phanom-nakhon-phanom.jpg"  id="touristInfo" ></img>  
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03005383_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://www.touronthai.com/gallery/photo/33002008/khaoyisarn13.jpg"  id="touristInfo" ></img>
+               
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : 183/13 Chayankun Road That Phanom Subdistrict, That Phanom 48110 Thailand</li>
-                <li>Tel : +66 94 543 5888 </li>
-                <li>Opening time : 6:00 - 20:00</li>
+                <li>Address : Amphawa, Samut Songkhram</li>
+                <li>Tel : 0 3476 3108 </li>
+                <li>Opening time : All time</li>
                 <li>Fee : - </li>
                 <li>Category : Temple </li>
             </ul>
@@ -43,5 +42,5 @@ class phanom3 extends Component {
     }
 }
  
-export default phanom3;
+export default SamutSongkhram3;
 

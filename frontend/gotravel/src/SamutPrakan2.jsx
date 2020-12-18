@@ -8,7 +8,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class pang2 extends Component {
+class SamutPrakan2 extends Component {
 
     render() {  
         return (
@@ -20,20 +20,19 @@ class pang2 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Wat Phra That Lampang Luang</h1>
+            <h1 align="center">Phisuea Samut Fort</h1>
             <div align="center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Lampangluang1.JPG"  id="touristInfo" ></img>
-                <img src="https://ak.picdn.net/shutterstock/videos/10562768/thumb/1.jpg"  id="touristInfo" ></img>
-                <img src="https://previews.123rf.com/images/thoungkung/thoungkung1806/thoungkung180601866/104133799-wat-phra-that-lampang-luang-lampang-thailand.jpg"  id="touristInfo" ></img>
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/63/33/40/caption.jpg"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03009296_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://paknam.com/wp-content/uploads/2016/04/IMG_7410.jpg"  id="touristInfo" ></img>
+        
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : 271 Lampang Luang Ko Kha Lampang 52130</li>
-                <li>Tel : +66 88 4343 199</li>
-                <li>Opening time : 7:30 - 17:00</li>
+                <li>Address : 144 Pak Khlong Bang Pla Kot Sub-district Phra Samut Chedi, Samut Prakan</li>
+                <li>Tel : +66 2425 8419</li>
+                <li>Opening time :08:00 - 19:00</li>
                 <li>Fee : - </li>
-                <li>Category : Temple</li>
+                <li>Category : Art, Culture, Heritage</li>
             </ul> 
         </div>
         </div>
@@ -41,4 +40,4 @@ class pang2 extends Component {
     }
 }
  
-export default pang2;
+export default SamutPrakan2;

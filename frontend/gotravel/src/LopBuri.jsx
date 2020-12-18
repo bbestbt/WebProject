@@ -8,7 +8,7 @@ import {
     // Switch,
   } from 'react-router-dom';
 
-class mae extends Component {
+class LopBuri extends Component {
 
     render() {  
         return (
@@ -20,41 +20,41 @@ class mae extends Component {
          <div id="bgCentral">
          <br></br>
         <div id="provinceName">
-            <h1 align="center">Nan</h1>
+            <h1 align="center">Lop Buri</h1>
         </div>
         {/* <div align="center"> */}
 
         <div class="placeProvince">
-        <Link to="/nan1"> <img src="https://mychiangmaitour.com/wp-content/uploads/2019/04/phumin_temple01.jpg" alt="Wat Phumin" class="allPlace" ></img></Link>
+        <Link to="/LopBuri1"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03000434_1.jpeg" alt="Wat Tong Pu" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Phumin</h6>          
+            <h6 align="center">Wat Tong Pu</h6>          
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/nan2"> <img src="https://mychiangmaitour.com/wp-content/uploads/2019/04/phra_that_hkao_noi01.jpg" alt="Wat Phra That Khao Noi" class="allPlace"  ></img></Link>
+        <Link to="/LopBuri2"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03002485_1.jpeg" alt="Wat San Paolo" class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Phra That Khao Noi</h6>
+            <h6 align="center">Wat San Paolo</h6>
  
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/nan3"> <img src="https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10030114-711b002071284e37381b70bc344d00c9.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit" alt="Nan Noble House"  class="allPlace"  ></img></Link>
+        <Link to="/LopBuri3"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03003384_1.jpeg"  class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Nan Noble House</h6>
+            <h6 align="center">Kraison Siharat Hall (The Chub Sorn Lake Pavilion Or Yen Pavilion)</h6>
 
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/nan4"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/ba/8e/ab/caption.jpg" alt="Doi Samer Dao"  class="allPlace"   ></img></Link>
+        <Link to="/LopBuri4"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03002581_1.jpeg" alt="Statue Of King Narai The Great"  class="allPlace"   ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Doi Samer Dao</h6>
+            <h6 align="center">Statue Of King Narai The Great</h6>
         </div>
         </div>
 
@@ -64,4 +64,4 @@ class mae extends Component {
     }
 }
  
-export default mae;
+export default LopBuri;

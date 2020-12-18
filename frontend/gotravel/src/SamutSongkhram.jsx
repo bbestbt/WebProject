@@ -7,7 +7,7 @@ import {
     // Switch,
   } from 'react-router-dom';
 
-class phanom extends Component {
+class SamutSongkhram extends Component {
 
     render() {  
         return (
@@ -19,36 +19,36 @@ class phanom extends Component {
          <div id="bgCentral">
          <br></br>
         <div id="provinceName">
-            <h1 align="center">Nakhon Phanom</h1>
+            <h1 align="center">Samut Songkhram</h1>
         </div>
         {/* <div align="center"> */}
 
         <div class="placeProvince">
-        <Link to="/phanom1"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/d8/97/76/caption.jpg" class="allPlace" ></img></Link>
+        <Link to="/SamutSongkhram1"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03004751_1.jpeg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Paya Sri Satta Nakarat</h6>    
+            <h6 align="center">Chang-Eng Siamese Twins Memorial And Boat Museum</h6>    
         </div>
     
         <div class="placeProvince">
-        <Link to="/phanom2"> <img src="https://www.renown-travel.com/images/wat-mahathat-ayutthaya-l.jpg" class="allPlace" ></img></Link>
+        <Link to="/SamutSongkhram2"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03012964_1.jpeg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Maha That Temple</h6>    
+            <h6 align="center">Amphawa Chaipattana Nurak</h6>    
         </div>
 
         <div class="placeProvince">
-        <Link to="/phanom3"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Prathatphanom_03.jpg" class="allPlace" ></img></Link>
+        <Link to="/SamutSongkhram3"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03005383_1.jpeg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Phra That Phanom</h6>                
+            <h6 align="center">Wat Yi San</h6>                
         </div>
 
         <div class="placeProvince">
-        <Link to="/phanom4"> <img src="https://patricklepetit.jalbum.net/NAKHON%20PHANOM/PHOTOS/THA%20UTHEN/Phra%20That%20Tha%20Uthen/K1203377_resize.jpg" class="allPlace" ></img></Link>
+        <Link to="/SamutSongkhram4"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03005429_1.jpeg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Phra That Tha Uthen</h6>    
+            <h6 align="center">Wat Bang Khae Noi</h6>    
         </div>
         </div>
 
@@ -60,4 +60,4 @@ class phanom extends Component {
     }
 }
  
-export default phanom;
+export default SamutSongkhram;

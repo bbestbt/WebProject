@@ -8,7 +8,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class pang1 extends Component {
+class SamutPrakan1 extends Component {
 
     render() {  
         return (
@@ -20,22 +20,21 @@ class pang1 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Wat Lai Hin</h1>
+            <h1 align="center">Fort Chulachomklao</h1>
             <div align="center">
-                <img src="https://mychiangmaitour.com/wp-content/uploads/2018/09/wat_lai_hin_luang001.jpg"  id="touristInfo" ></img>
-                <img src="https://www.mychiangmaitravel.com/wp-content/uploads/2018/10/Wat-Lai-Hin-Luang003.jpg"  id="touristInfo" ></img>
-                <img src="https://i0.wp.com/www.mychiangmaitravel.com/wp-content/uploads/2018/10/Wat-Lai-Hin-Luang01.jpg?fit=800%2C533&ssl=1"  id="touristInfo" ></img>
-                <img src="https://www.mychiangmaitravel.com/wp-content/uploads/2018/10/Wat-Lai-Hin-Luang002.jpg"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03009127_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://paknam.com/wp-content/uploads/2016/04/IMG_6399.jpg"  id="touristInfo" ></img>
+                
 
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : 234 Moo 2 Sala Ko Kha Lampang 52130</li>
-                <li>Tel : +66 54 274 006 </li>
-                <li>Opening time :  8 am to 5 pm.</li>
+                <li>Address : Phra Samut Chedi, Samut Prakan</li>
+                <li>Tel : +66 2475 6260,+66 8 6663 3294 </li>
+                <li>Opening time : 08:30 - 18:00</li>
                 <li><span>Fee : - </span></li>
                 
-                <li>Category : Temple</li>
+                <li>Category : Art, Culture, Heritage</li>
             </ul> 
         </div>
         </div>
@@ -48,4 +47,4 @@ class pang1 extends Component {
     }
 }
  
-export default pang1;
+export default SamutPrakan1;

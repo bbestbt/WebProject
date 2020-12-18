@@ -8,7 +8,7 @@ import {
     // Switch,
   } from 'react-router-dom';
 
-class pang extends Component {
+class SamutPrakan extends Component {
 
     render() {  
         return (
@@ -20,42 +20,42 @@ class pang extends Component {
          <div id="bgCentral">
          <br></br>
         <div id="provinceName">
-            <h1 align="center">Lampang</h1>
+            <h1 align="center">Samut Prakan</h1>
         </div>
 {/* 
         <div align="center"> */}
 
         <div class="placeProvince">
-        <Link to="/pang1"> <img src="https://www.mychiangmaitravel.com/wp-content/uploads/2018/10/Wat-Lai-Hin-Luang003.jpg" alt="Wat Lai Hin" class="allPlace" ></img></Link>
+        <Link to="/SamutPrakan1"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03009127_1.jpeg" alt="Fort Chulachomklao" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Lai Hin</h6>          
+            <h6 align="center">Fort Chulachomklao</h6>          
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/pang2"> <img src="https://lp-cms-production.imgix.net/2019-06/7111123fcc9fd6d6302647621eb2dae4-wat-phra-that-lampang-luang.jpg" alt="Wat Phra That" class="allPlace"  ></img></Link>
+        <Link to="/SamutPrakan2"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03009296_1.jpeg" alt="Phisuea Samut Fort" class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Phra That Lampang Luang</h6>
+            <h6 align="center">Phisuea Samut Fort</h6>
  
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/pang3"> <img src="https://www.thailandadventureguide.com/wp-content/uploads/2017/02/Chae-Son-National-Park-13.jpg" alt="Chae Son"  class="allPlace"  ></img></Link>
+        <Link to="/SamutPrakan3"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013498_1.jpeg" alt="Wat Songtham Worawihan"  class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Chae Son National Park</h6>
+            <h6 align="center">Wat Songtham Worawihan</h6>
 
         </div>
 
 
         <div class="placeProvince">
-        <Link to="/pang4"> <img src="https://www.mychiangmaitravel.com/wp-content/uploads/2018/10/mae-wa-national-park002.jpg" alt="Mae Wa National Park"  class="allPlace"   ></img></Link>
+        <Link to="/SamutPrakan4"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03015157_1.jpeg" alt="Wat Phichai Songkhram"  class="allPlace"   ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Mae Wa National Park</h6>
+            <h6 align="center">Wat Phichai Songkhram</h6>
 
                 
         </div>
@@ -72,4 +72,4 @@ class pang extends Component {
     }
 }
  
-export default pang;
+export default SamutPrakan;

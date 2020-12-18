@@ -7,7 +7,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class phanom2 extends Component {
+class SamutSongkhram2 extends Component {
 
     render() {  
         return (
@@ -19,21 +19,20 @@ class phanom2 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Wat Maha That Temple </h1>
+            <h1 align="center">Amphawa Chaipattana Nurak </h1>
             <div align="center">
-                <img src="https://lh3.googleusercontent.com/proxy/vWTZcTQsFjzFCU6fTQHDj7bsLBFdfvKpKzeY5zxEzLdi6nqMyQdOrFi4HO6nCGqWfDihyeCs2tTYfkHHtRujftW9ccEiTffs6gvO10toaFHzNugJQusOESUY-QfkGawS0giLj2G_"  id="touristInfo" ></img>
-                <img src="https://www.renown-travel.com/images/wat-mahathat-sukhothai-l.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/xHe-OcgSxWvY5Qmgt9IOSHaDqzyBdToY0LgQkP9HaVHWnoJjo5g6Y0WJBbhucAAOkSI933eFE544o_kXccOxjYucLWGqxxGCTCyab9X7fTSTLBGNQndxGcYOBL6f_IyAftg"  id="touristInfo" ></img>
-                <img src="https://architectureofbuddhism.com/books/wp-content/uploads/2014/08/Wat-Mahathat-1.jpg"  id="touristInfo" ></img>  
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03012964_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://www.lovethailand.org/images/banner/content/lovethailand_banner_20131001100557.jpg"  id="touristInfo" ></img>
+               
+              
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : Sunthonwichit Road., Nakhon Phanom Thailand</li>
-                <li>Tel : -</li>
-                <li>Opening time : 8:00 - 17:00 </li>
+                <li>Address : 185-191 Amphawa Amphawa Samut Songkhram 75110</li>
+                <li>Tel : +66 3475 2245</li>
+                <li>Opening time : Sat and Sun 08:30 - 21:00 </li>
                 <li>Fee : 50 Baht</li>
-               
-                <li>Category : Temple </li>
+                <li>Category : Art, Culture, Heritage </li>
             </ul>
             
         </div>
@@ -44,5 +43,5 @@ class phanom2 extends Component {
     }
 }
  
-export default phanom2;
+export default SamutSongkhram2;
 
