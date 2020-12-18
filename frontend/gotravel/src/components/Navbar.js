@@ -67,7 +67,7 @@ class NavbarMain extends React.Component {
                 
                 <NavItem>
                   
-                  <Link to="/planTripPage"><NavLink href="#plantripBody">Plan trip</NavLink></Link>
+                  <Link to="/planTripPage"><NavLink href="#plantripBody">Recommended trip</NavLink></Link>
                 </NavItem>
                 <NavItem>
                   
@@ -77,7 +77,7 @@ class NavbarMain extends React.Component {
                 <Link to="/addfav"><NavLink href="#servicesBody">Search</NavLink></Link>
                 </NavItem> */}
                 <NavItem>
-                  <NavLink href="#contactBody">Contact</NavLink>
+                  <NavLink href="#footerBody">Contact</NavLink>
                 </NavItem>
 
                   <Link to="/login"><Button onClick={this.changeState} color="success">{this.state.login ? "Login" : " Log out"}</Button></Link>

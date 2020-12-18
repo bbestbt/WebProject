@@ -18,7 +18,7 @@ class Home extends Component {
         <Province/>
         {/* <Package /> */}
         {/* <Services /> */}
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </div>
     );
