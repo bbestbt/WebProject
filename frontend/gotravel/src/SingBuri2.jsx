@@ -8,7 +8,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class phayao2 extends Component {
+class SingBuri2 extends Component {
 
     render() {  
         return (
@@ -20,20 +20,19 @@ class phayao2 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Phae Mueang Phi</h1>
+            <h1 align="center">Wat Kudi Thong</h1>
             <div align="center">
-                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03012779_1.jpeg"  id="touristInfo" ></img>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ghost_Canyon%2C_Phae_Muang_Phi%2C_Northern_Thailand.jpg"  id="touristInfo" ></img>
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/51/a4/91/phae-muang-phi-forest.jpg"  id="touristInfo" ></img>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Phae_Mueang_Phi_Forest_Park2.jpg"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03004974_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://static3.bigstockphoto.com/3/7/3/large1500/373087018.jpg"  id="touristInfo" ></img>
+             
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : Tambon Nam Cham, Phrae Thailand</li>
-                <li>Tel : +66 5451 1162</li>
-                <li>Opening time : 7:00 - 18:00</li>
-                <li>Fee : 20 Baht </li>
-                <li>Category : Nature</li>
+                <li>Address :Moo 3 Highway 32 Km.125-126 Phrom Buri, Sing Buri</li>
+                <li>Tel :+66 3651 1900,+66 3651 2230</li>
+                <li>Opening time : 08:00 - 19:00</li>
+                <li>Fee : - Baht </li>
+                <li>Category : Temple</li>
             </ul> 
         </div>
         </div>
@@ -41,4 +40,4 @@ class phayao2 extends Component {
     }
 }
  
-export default phayao2;
+export default SingBuri2;

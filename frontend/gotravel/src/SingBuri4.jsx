@@ -8,7 +8,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class phayao4 extends Component {
+class SingBuri4 extends Component {
 
     render() {  
         return (
@@ -20,20 +20,19 @@ class phayao4 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Meajok Hot Springs</h1>
+            <h1 align="center">Wat Phra Prang Muni</h1>
             <div align="center">
-                <img src="https://ak.picdn.net/shutterstock/videos/1006617916/thumb/1.jpg"  id="touristInfo" ></img>
-                <img src="https://mychiangmaitour.com/wp-content/images/phrae/mae_chok_hot_spring004.jpg"  id="touristInfo" ></img>
-                <img src="https://mychiangmaitour.com/wp-content/uploads/2018/10/mae_chok_hot_spring007.jpg"  id="touristInfo" ></img>
-                <img src="https://www.lovethailand.org/thumb.php?src=images/banner/content/lovethailand_banner_20121807105645.jpg&x=300&y=300"  id="touristInfo" ></img>             
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03000909_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://temple-thai.com/wp-content/uploads/2019/09/wat-phra-prang-muni-19.jpg"  id="touristInfo" ></img>
+              
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : Highway 1023 Mae Pak, Wang Chin 54150 Thailand</li>
-                <li>Tel : +66 54 064 252 </li>
+                <li>Address : Moo 7 Mueang Sing Buri, Sing Buri</li>
+                <li>Tel : +66 3652 0079</li>
                 <li>Opening time : 8 am. - 5 pm.</li>
-                <li>Fee : 30 Baht</li>
-                <li>Category : Hot spring</li>
+                <li>Fee : - Baht</li>
+                <li>Category : Temple</li>
             </ul> 
         </div>
         </div>
@@ -46,4 +45,4 @@ class phayao4 extends Component {
     }
 }
  
-export default phayao4;
+export default SingBuri4;

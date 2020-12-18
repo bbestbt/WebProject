@@ -8,7 +8,7 @@ import NavbarMain from "./components/Navbar";
 //     Switch,
 //   } from 'react-router-dom';
 
-class rai3 extends Component {
+class Saraburi3 extends Component {
 
     render() {  
         return (
@@ -20,20 +20,19 @@ class rai3 extends Component {
          <div id="bgCentral">
          <br></br>
             
-            <h1 align="center">Phu Chi Fah</h1>
+            <h1 align="center">Wat Phra Phuttachai</h1>
             <div align="center">
-                <img src= "https://i2.wp.com/www.tielandtothailand.com/wp-content/uploads/2017/04/Phu-Chi-Fah-Nautical-Sunrise.jpg?resize=1000%2C563&ssl=1"  id="touristInfo" ></img>
-                <img src= "https://i2.wp.com/www.tielandtothailand.com/wp-content/uploads/2017/04/Phu-Chi-Fah-Sunrise.jpg?resize=1000%2C563&ssl=1"  id="touristInfo" ></img>
-                <img src= "https://mychiangmaitour.com/wp-content/uploads/2018/02/Phu_Chi_Fah10.jpg"  id="touristInfo" ></img>
-                <img src= "https://i2.wp.com/www.tielandtothailand.com/wp-content/uploads/2017/04/Phu-Chi-Fah-Peek.jpg?resize=1000%2C563&ssl=1"  id="touristInfo" ></img>
+                <img src= "https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03002681_1.jpeg"  id="touristInfo" ></img>
+                <img src= "https://previews.123rf.com/images/thanespong/thanespong1707/thanespong170700064/82942220-wat-phra-phutthachai-in-saraburi-thailand.jpg"  id="touristInfo" ></img>
+            
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">
-                <li>Address : Phu Chi Fah Forest Park, Po, Wiang Kaen, Chiang Rai 57310 Thailand</li>
-                <li>Tel : +66 5371 4914 </li>
-                <li>Opening time : 8AM to 5PM</li>
+                <li>Address : Phahon Yothin Road Mueang Saraburi, Saraburi</li>
+                <li>Tel : +66 3630 3169 </li>
+                <li>Opening time : 7AM to 5PM</li>
                 <li>Fee : - </li>
-                <li>Category : Nature</li>
+                <li>Category : emple</li>
             </ul> 
         </div>
         </div>
@@ -46,4 +45,4 @@ class rai3 extends Component {
     }
 }
  
-export default rai3;
+export default Saraburi3;
