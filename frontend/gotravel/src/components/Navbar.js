@@ -12,15 +12,15 @@ import {
 } from "reactstrap";
 
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Link,
-  Route,
-  Switch,
+  // Route,
+  // Switch,
 } from 'react-router-dom';
 
 import "../App.css";
 import "../index.css";
-
+import cart from '../cart.png'
 class NavbarMain extends React.Component {
   constructor(props) {
     super(props);
@@ -67,11 +67,11 @@ class NavbarMain extends React.Component {
                 
                 <NavItem>
                   
-                  <Link to="/planTripPage"><NavLink href="#plantripBody">Recommended trip</NavLink></Link>
+                  <Link to="/planTripPage"><NavLink >Recommended trip</NavLink></Link>
                 </NavItem>
                 <NavItem>
                   
-                  <Link to="/Promo"><NavLink href="#plantripBody">Promotion</NavLink></Link>
+                  <Link to="/Promo"><NavLink>Promotion</NavLink></Link>
                 </NavItem>
                 {/* <NavItem>
                 <Link to="/addfav"><NavLink href="#servicesBody">Search</NavLink></Link>
@@ -79,6 +79,8 @@ class NavbarMain extends React.Component {
                 <NavItem>
                   <NavLink href="#footerBody">Contact</NavLink>
                 </NavItem>
+                <Button><img src={cart} width="20" height="20"></img></Button>
+                
 
                   <Link to="/login"><Button onClick={this.changeState} color="success">{this.state.login ? "Login" : " Log out"}</Button></Link>
                 
