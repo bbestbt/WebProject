@@ -6,12 +6,48 @@ import {
     // Route,
     // Switch,
   } from 'react-router-dom';
-
+import {hotelTicketURL,addToCartURL} from './constants'
 import hotel from "./promo/hotel2.png"
 import h1  from "./promo/h1.jpg"
+import axios from 'axios';
+import { authAxios } from './utils';
 class hotelTicket extends Component {
-    
+    state={
+        loading:false,
+        error:null,
+        data:[]
+    }
+
+    componentDidMount(){
+        this.setState({loading:true})
+        axios
+        .get(hotelTicketURL)
+        .then(res=>{
+            console.log(res.data)
+            this.setState({data: res.data,loading:false})
+        })
+        .catch(err=>{
+            this.setState({error:err,loading:false})
+        })
+    }
+
+    // handleAddToCart=slug=>{
+    //     this.setState({loading:true})
+    //     authAxios
+    //     // axios
+    //     .post(addToCartURL,{slug})
+    //     .then(res=>{
+    //         console.log(res.data)
+    //         //update cart count
+    //         this.setState({loading:false})
+    //     })
+    //     .catch(err=>{
+    //         this.setState({error:err,loading:false})
+    //     })
+    // }
+
     render() { 
+        const {data,error,loading} =this.state;
         return (
         <div>
              <NavbarMain />
@@ -24,8 +60,27 @@ class hotelTicket extends Component {
             <img src={hotel} width="60" height="60" ></img>
             <h1 align="center"> Hotel deal</h1>
         </div>
+        <br></br>
+        {data.map(hotel => {
+            return  <div align="center" key={hotel.id}>
+                <div class="allHotel">
+                    <img src={hotel.image} class="promoImg"  ></img>
+                    <h4 class="caption" >{hotel.title}</h4>
+                    <h4 >{hotel.price} Baht</h4>
+                    <h5>{hotel.description}</h5>
+                </div>
+                <button class="ticket" 
+                // onClick={()=>this.handleAddToCart(hotel.slug)}
+                >Add to cart </button>
+            <div>
+   
+           
+            </div>
+            </div>
+              })}
+     
         
-        <div id="placePromo">
+        {/* <div id="placePromo">
             <br></br>
             <div align="center" >
                 <div class="allHotel">
@@ -59,9 +114,9 @@ class hotelTicket extends Component {
                 </div>
 
                     
-            </div>
+            </div> */}
             
-        </div>
+        {/* </div> */}
     
        
 

@@ -7,9 +7,46 @@ import {
     // Switch,
 } from 'react-router-dom';
 import food from "./promo/food.png"
+import {foodTicketURL,addToCartURL} from './constants'
+import { authAxios } from './utils';
+import axios from 'axios';
 class foodTicket extends Component {
+    state={
+        loading:false,
+        error:null,
+        data:[]
+    }
+
+    componentDidMount(){
+        this.setState({loading:true})
+        axios
+        .get(foodTicketURL)
+        .then(res=>{
+            console.log(res.data)
+            this.setState({data: res.data,loading:false})
+        })
+        .catch(err=>{
+            this.setState({error:err,loading:false})
+        })
+    }
+
+    handleAddToCart=slug=>{
+        this.setState({loading:true})
+        authAxios
+        // axios
+        .post(addToCartURL,{slug})
+        .then(res=>{
+            console.log(res.data)
+            //update cart count
+            this.setState({loading:false})
+        })
+        .catch(err=>{
+            this.setState({error:err,loading:false})
+        })
+    }
 
     render() {
+        const {data,error,loading} =this.state;
         return (
             <div>
                 <NavbarMain />
@@ -24,6 +61,23 @@ class foodTicket extends Component {
                     </div>
 
                     <div id="placePromo">
+                        <br></br>
+                        {data.map(food => {
+                       return  <div align="center" key={food.id} >
+                            <div class="allHotel">
+                                <img src={food.image} class="promoImg"  ></img>
+                                <h4 class="caption" >{food.title}</h4>
+                                <h6 class="caption">{food.promo}</h6>
+                                <h4 class="caption">{food.price} Baht</h4>
+                                <button align ="right" class="ticket" onClick={()=>this.handleAddToCart(food.slug)}>Add to cart </button>
+                            </div>
+                            
+                            </div>
+                             })}
+                        
+                            
+
+                    {/* <div id="placePromo">
                         <br></br>
                         <div align="center" >
                             <div class="allHotel">
@@ -54,14 +108,15 @@ class foodTicket extends Component {
 
 
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
-
+</div>
 
 
         );
+        
     }
 }
 export default foodTicket;

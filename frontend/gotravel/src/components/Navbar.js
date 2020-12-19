@@ -82,7 +82,10 @@ class NavbarMain extends React.Component {
                 <Button><img src={cart} width="20" height="20"></img></Button>
                 
 
-                  <Link to="/login"><Button onClick={this.changeState} color="success">{this.state.login ? "Login" : " Log out"}</Button></Link>
+                  <Link to="/login"><Button onClick={this.changeState} color="success">
+                    {/* {this.state.login ? "Login" : " Log out"} */}
+                    Login
+                    </Button></Link>
                 
               </Nav>
             </Collapse>

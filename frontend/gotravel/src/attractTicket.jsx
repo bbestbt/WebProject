@@ -6,6 +6,8 @@ import NavbarMain from "./components/Navbar";
 //     Route,
 //     Switch,
 //   } from 'react-router-dom';
+import axios from 'axios';
+
 import attract from "./promo/attract.png"
 import p1 from "./promo/P1.png"
 import p2 from "./promo/P2.png"
@@ -26,13 +28,50 @@ import p17 from "./promo/p17.png"
 import p18 from "./promo/p18.png"
 import p19 from "./promo/p19.png"
 import p20 from "./promo/p20.png"
-
+import {attractTicketURL,addToCartURL} from './constants'
+import { authAxios } from './utils';
 
 class attractTicket extends Component {
-    
+
+    state={
+        loading:false,
+        error:null,
+        data:[]
+    }
+
+    componentDidMount(){
+        this.setState({loading:true})
+        axios
+        .get(attractTicketURL)
+        .then(res=>{
+            console.log(res.data)
+            this.setState({data: res.data,loading:false})
+        })
+        .catch(err=>{
+            this.setState({error:err,loading:false})
+        })
+    }
+
+    handleAddToCart=slug=>{
+        this.setState({loading:true})
+        authAxios
+        // axios
+        .post(addToCartURL,{slug})
+        .then(res=>{
+            console.log(res.data)
+            //update cart count
+            this.setState({loading:false})
+        })
+        .catch(err=>{
+            this.setState({error:err,loading:false})
+        })
+    }
+
     render() { 
+        const {data,error,loading} =this.state;
         return (
         <div>
+            {error && alert(JSON.stringify(error))}
              <NavbarMain />
         <div class="topBanner" >
         </div>
@@ -44,7 +83,21 @@ class attractTicket extends Component {
             <h1 align="center"> Attraction tickets</h1>
         </div>
         
-        <div id="placePromo">
+
+        <div >
+        <br></br>
+        {data.map(item => {
+            return  <div  key={item.id}>
+            <h3 >{item.title}</h3>
+            <div>
+            <img  src={item.image} class="promoImg"  ></img>
+            <button align ="right" class="ticket" onClick={()=>this.handleAddToCart(item.slug)}>Add to cart </button>
+            </div>
+            </div>
+              })}
+        </div>
+      
+        {/* <div id="placePromo">
             <br></br>
             <h3 align="center">SAFARI WORLD</h3>
             <div align="center" >
@@ -113,7 +166,7 @@ class attractTicket extends Component {
                 <a class="ticket" href="#"> Buy ticket  </a>
 
             </div>
-        </div>
+        </div> */}
 
 
         </div>
