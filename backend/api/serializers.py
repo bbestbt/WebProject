@@ -35,7 +35,10 @@ class HotelSerializer(serializers.ModelSerializer):
             'title',
             'price',
             'slug',
-            'description',
+            # 'description',
+            'address',
+            'phone',
+            'website',
             'image'
         ]
 

@@ -60,24 +60,30 @@ class hotelTicket extends Component {
             <img src={hotel} width="60" height="60" ></img>
             <h1 align="center"> Hotel deal</h1>
         </div>
+        <div id="placePromo">
         <br></br>
         {data.map(hotel => {
             return  <div align="center" key={hotel.id}>
                 <div class="allHotel">
                     <img src={hotel.image} class="promoImg"  ></img>
                     <h4 class="caption" >{hotel.title}</h4>
-                    <h4 >{hotel.price} Baht</h4>
-                    <h5>{hotel.description}</h5>
-                </div>
-                <button class="ticket" 
+                    <h4 >Price : {hotel.price} Baht</h4>
+                    <h5>Address : {hotel.address}</h5>
+                    <h5>Phone : {hotel.phone}</h5>
+                    <h5>Website : {hotel.website}</h5>
+                    <button class="ticket" 
                 // onClick={()=>this.handleAddToCart(hotel.slug)}
                 >Add to cart </button>
+                </div>
+                
             <div>
+                
    
            
             </div>
             </div>
               })}
+              </div>
      
         
         {/* <div id="placePromo">

@@ -84,7 +84,7 @@ class attractTicket extends Component {
         </div>
         
 
-        <div >
+        <div  id="placePromo" >
         <br></br>
         {data.map(item => {
             return  <div  key={item.id}>

@@ -45,7 +45,10 @@ class Hotel(models.Model):
     title = models.CharField(max_length=100)
     price = models.FloatField()
     slug = models.SlugField()
-    description = models.TextField()
+    # description = models.TextField()
+    address = models.CharField(max_length=100)
+    phone = models.CharField(max_length=100)
+    website = models.CharField(max_length=100)
     image = models.ImageField()
 
     def __str__(self):
