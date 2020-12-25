@@ -54,7 +54,7 @@ class Cart extends Component {
                                     <Link to="/cart"><i  onClick={() => { this.handleSubtractQuantity(item.id) }}>-</i></Link>
                                 </div>
 
-                                <button onClick={() => { this.handleRemove(item.id) }}>Remove</button>
+                                <button class="ticket"  onClick={() => { this.handleRemove(item.id) }}>Remove</button>
                             </div>
 
                         </li>

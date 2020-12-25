@@ -31,7 +31,7 @@ class Recipe extends Component {
                     <h5 ><b>Total: {this.props.total} Baht</b></h5>
 
 
-                    <button >Checkout</button>
+                    <button class="ticket" >Checkout</button>
                 </div>
             </div>
         )
