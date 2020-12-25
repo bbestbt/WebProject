@@ -45,7 +45,7 @@ class Cart extends Component {
 
                             <div >
                                 <span >{item.title}</span>
-                                <p><b>Price: {item.price}$</b></p>
+                                <p><b>Price: {item.price} Baht</b></p>
                                 <p>
                                     <b>Quantity: {item.quantity}</b>
                                 </p>
