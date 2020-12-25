@@ -12,7 +12,7 @@ class Home extends Component {
   render() {
     return (
       <div id='home'>
-        <NavbarMain />
+        {/* <NavbarMain /> */}
         <Hero />
         <About />
         <Province/>
