@@ -38,7 +38,7 @@ class Cart extends Component {
                     return (
 
 
-                        <li key={item.id}>
+                        <li id="placePromo" key={item.id}>
                             <div >
                                 <img src={item.img} alt={item.img} class="promoImg" />
                             </div>
@@ -49,6 +49,10 @@ class Cart extends Component {
                                 <p>
                                     <b>Quantity: {item.quantity}</b>
                                 </p>
+                                <div align="center">
+                                <Link to="/cart"><i  onClick={() => { this.handleAddQuantity(item.id) }}>+</i></Link> {" "} {" "}
+                                    <Link to="/cart"><i  onClick={() => { this.handleSubtractQuantity(item.id) }}>-</i></Link>
+                                </div>
 
                                 <button onClick={() => { this.handleRemove(item.id) }}>Remove</button>
                             </div>
@@ -61,8 +65,8 @@ class Cart extends Component {
 
             (
                 <div>
-                <br></br>
-                <h5 align="center">Nothing</h5>
+                    <br></br>
+                    <h5 align="center">Nothing</h5>
                 </div>
             )
         return (
@@ -73,17 +77,17 @@ class Cart extends Component {
 
                 <div id="bgAttract">
                     <br></br>
-                    <div  class="register-header" >
-                    <img src={cart} width="60" height="60" ></img>
+                    <div class="register-header" >
+                        <img src={cart} width="60" height="60" ></img>
                         <h1 align="center">Order</h1>
-                        </div>
-                        <ul >
-                            {addedItems}
-                        </ul>
-                    
                     </div>
-                    {/* <Recipe /> */}
+                    <ul >
+                        {addedItems}
+                    </ul>
+                    <Recipe />
                 </div>
+
+            </div>
         )
     }
 }
@@ -91,15 +95,15 @@ class Cart extends Component {
 
 const mapStateToProps = (state) => {
     return {
-                    items: state.addedItems,
+        items: state.addedItems,
         //addedItems: state.addedItems
     }
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-                    removeItem: (id) => { dispatch(removeItem(id))},
-        addQuantity: (id) => { dispatch(addQuantity(id))},
-        subtractQuantity: (id) => { dispatch(subtractQuantity(id))}
+        removeItem: (id) => { dispatch(removeItem(id)) },
+        addQuantity: (id) => { dispatch(addQuantity(id)) },
+        subtractQuantity: (id) => { dispatch(subtractQuantity(id)) }
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Cart)
