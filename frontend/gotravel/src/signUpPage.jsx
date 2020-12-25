@@ -29,7 +29,7 @@ class signUpPage extends Component {
     checkPassword(password ,confirmPassword) {
          if(password === confirmPassword) {
             // this.setState({password_has_error:true});
-            alert("password match");
+            // alert("password match");
             return true; 
         }
         else { alert("password not match")

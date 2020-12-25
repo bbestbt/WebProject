@@ -24,7 +24,7 @@ class login extends Component{
         })
         .then(function(response) {
             if (!response.ok) {
-                window.alert("password not match");
+                window.alert("password not match or invalid username");
                 return
             }
             window.location.href="/home";
