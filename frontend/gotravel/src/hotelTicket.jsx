@@ -8,9 +8,10 @@ import {
   } from 'react-router-dom';
 import {hotelTicketURL,addToCartURL} from './constants'
 import hotel from "./promo/hotel2.png"
-import h1  from "./promo/h1.jpg"
 import axios from 'axios';
 import { authAxios } from './utils';
+import { connect } from 'react-redux'
+import { addToCart } from './actions/cartActions'
 class hotelTicket extends Component {
     state={
         loading:false,
@@ -46,6 +47,10 @@ class hotelTicket extends Component {
     //     })
     // }
 
+    handleClick = (id)=>{
+        this.props.addToCart(id); 
+    }
+
     render() { 
         const {data,error,loading} =this.state;
         return (
@@ -72,7 +77,7 @@ class hotelTicket extends Component {
                     <h5>Phone : {hotel.phone}</h5>
                     <h5>Website : {hotel.website}</h5>
                     <button class="ticket" 
-                // onClick={()=>this.handleAddToCart(hotel.slug)}
+                onClick={()=>{this.handleClick(hotel.id)}}
                 >Add to cart </button>
                 </div>
                 
@@ -136,4 +141,17 @@ class hotelTicket extends Component {
         );
     }
 }
-export default hotelTicket;
+// export default hotelTicket;
+const mapStateToProps = (state)=>{
+    return {
+        data: state.data
+    }
+  }
+const mapDispatchToProps= (dispatch)=>{
+    
+    return{
+        addToCart: (id)=>{dispatch(addToCart(id))}
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(hotelTicket)

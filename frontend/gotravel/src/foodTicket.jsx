@@ -10,6 +10,8 @@ import food from "./promo/food.png"
 import {foodTicketURL,addToCartURL} from './constants'
 import { authAxios } from './utils';
 import axios from 'axios';
+import { connect } from 'react-redux'
+import { addToCart } from './actions/cartActions'
 class foodTicket extends Component {
     state={
         loading:false,
@@ -30,19 +32,23 @@ class foodTicket extends Component {
         })
     }
 
-    handleAddToCart=slug=>{
-        this.setState({loading:true})
-        authAxios
-        // axios
-        .post(addToCartURL,{slug})
-        .then(res=>{
-            console.log(res.data)
-            //update cart count
-            this.setState({loading:false})
-        })
-        .catch(err=>{
-            this.setState({error:err,loading:false})
-        })
+    // handleAddToCart=slug=>{
+    //     this.setState({loading:true})
+    //     authAxios
+    //     // axios
+    //     .post(addToCartURL,{slug})
+    //     .then(res=>{
+    //         console.log(res.data)
+    //         //update cart count
+    //         this.setState({loading:false})
+    //     })
+    //     .catch(err=>{
+    //         this.setState({error:err,loading:false})
+    //     })
+    // }
+
+    handleClick = (id)=>{
+        this.props.addToCart(id); 
     }
 
     render() {
@@ -69,7 +75,7 @@ class foodTicket extends Component {
                                 <h4 class="caption" >{food.title}</h4>
                                 <h6 class="caption">{food.promo}</h6>
                                 <h4 class="caption">{food.price} Baht</h4>
-                                <button align ="right" class="ticket" onClick={()=>this.handleAddToCart(food.slug)}>Add to cart </button>
+                                <button align ="right" class="ticket"  onClick={()=>{this.handleClick(food.id)}}>Add to cart </button>
                             </div>
                             
                             </div>
@@ -119,4 +125,17 @@ class foodTicket extends Component {
         
     }
 }
-export default foodTicket;
+// export default foodTicket;
+const mapStateToProps = (state)=>{
+    return {
+      items: state.items
+    }
+  }
+const mapDispatchToProps= (dispatch)=>{
+    
+    return{
+        addToCart: (id)=>{dispatch(addToCart(id))}
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(foodTicket)

@@ -40,7 +40,7 @@ class Cart extends Component {
 
                         <li key={item.id}>
                             <div >
-                                <img src={item.img} alt={item.img} />
+                                <img src={item.img} alt={item.img} class="promoImg" />
                             </div>
 
                             <div >
