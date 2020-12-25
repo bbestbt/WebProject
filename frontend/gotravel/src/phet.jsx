@@ -12,7 +12,7 @@ class phet extends Component {
     render() {  
         return (
         <div>
-             <NavbarMain />
+             {/* <NavbarMain /> */}
         <div class="topBanner" >
         </div>
         

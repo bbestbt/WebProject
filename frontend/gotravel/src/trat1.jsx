@@ -12,7 +12,7 @@ class trat1 extends Component {
     render() {  
         return (
         <div>
-             <NavbarMain />
+             {/* <NavbarMain /> */}
         <div class="topBanner" >
         </div>
         

@@ -50,7 +50,7 @@ class hotelTicket extends Component {
         const {data,error,loading} =this.state;
         return (
         <div>
-             <NavbarMain />
+             {/* <NavbarMain /> */}
         <div class="topBanner" >
         </div>
         

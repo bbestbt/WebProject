@@ -72,7 +72,7 @@ class attractTicket extends Component {
         return (
         <div>
             {/* {error && alert(JSON.stringify(error))} */}
-             <NavbarMain />
+             {/* <NavbarMain /> */}
         <div class="topBanner" >
         </div>
         

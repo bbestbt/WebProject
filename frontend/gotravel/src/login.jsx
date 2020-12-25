@@ -56,7 +56,7 @@ class login extends Component{
     render(){
         return(
         <div>
-        <NavbarMain/>
+        {/* <NavbarMain/> */}
         <div class ="topBanner">
         </div>  
             <br></br>
