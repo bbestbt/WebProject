@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
-// import {
-//     BrowserRouter as Router,
-//     Link,
-//     Route,
-//     Switch,
-//   } from 'react-router-dom';
 import axios from 'axios';
 
 import attract from "./promo/attract.png"
@@ -30,8 +24,16 @@ import p19 from "./promo/p19.png"
 import p20 from "./promo/p20.png"
 import {attractTicketURL,addToCartURL} from './constants'
 import { authAxios } from './utils';
+import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from './actions/action-types/cart-actions'
+import { addToCart } from './actions/cartActions'
+import { connect } from 'react-redux'
+
 
 class attractTicket extends Component {
+
+    handleClick = (id)=>{
+        this.props.addToCart(id); 
+    }
 
     state={
         loading:false,
@@ -178,4 +180,17 @@ class attractTicket extends Component {
         );
     }
 }
-export default attractTicket;
+
+const mapStateToProps = (state)=>{
+    return {
+      items: state.items
+    }
+  }
+const mapDispatchToProps= (dispatch)=>{
+    
+    return{
+        addToCart: (id)=>{dispatch(addToCart(id))}
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(attractTicket);
