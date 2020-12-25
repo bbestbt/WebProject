@@ -24,9 +24,11 @@ import cart from '../cart.png'
 class NavbarMain extends React.Component {
   constructor(props) {
     super(props);
+    
 
     this.toggle = this.toggle.bind(this);
     this.state = {
+      // username:"",
       isOpen: false,
      login: false
     };
@@ -76,16 +78,20 @@ class NavbarMain extends React.Component {
                 {/* <NavItem>
                 <Link to="/addfav"><NavLink href="#servicesBody">Search</NavLink></Link>
                 </NavItem> */}
-                <NavItem>
+                {/* <NavItem>
                   <NavLink href="#footerBody">Contact</NavLink>
-                </NavItem>
+                </NavItem> */}
+                <Link to="./Cart">
                 <Button><img src={cart} width="20" height="20"></img></Button>
-                
+                </Link>
 
                   <Link to="/login"><Button onClick={this.changeState} color="success">
                     {/* {this.state.login ? "Login" : " Log out"} */}
-                    Login
+                    LogIn/Out
                     </Button></Link>
+                {/* <NavItem>
+                    <NavLink>{this.username}</NavLink>
+                </NavItem> */}
                 
               </Nav>
             </Collapse>
