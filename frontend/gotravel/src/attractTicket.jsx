@@ -48,9 +48,12 @@ class attractTicket extends Component {
     //     })
     // }
 
-    handleClick = (id)=>{
-        this.props.addToCart(id); 
-    }
+    // handleClick = (id)=>{
+    //     this.props.addToCart(id); 
+    // }
+    handleClick() {
+        alert("full booking")
+      }
 
     render() { 
         const {data,error,loading} =this.state;
@@ -76,7 +79,9 @@ class attractTicket extends Component {
             <h3 >{item.title}</h3>
             <div>
             <img  src={item.image} class="promoImg"  ></img>
-            <button align ="right" class="ticket"  onClick={()=>{this.handleClick(item.id)}}>Add to cart </button>
+            <button align ="right" class="ticket"  onClick={this.handleClick} 
+            // onClick={()=>{this.handleClick(item.id)}}
+            >Add to cart </button>
             </div>
             </div>
               })}
@@ -163,17 +168,17 @@ class attractTicket extends Component {
         );
     }
 }
-// export default attractTicket;
-const mapStateToProps = (state)=>{
-    return {
-      items: state.items
-    }
-  }
-const mapDispatchToProps= (dispatch)=>{
+export default attractTicket;
+// const mapStateToProps = (state)=>{
+//     return {
+//       items: state.items
+//     }
+//   }
+// const mapDispatchToProps= (dispatch)=>{
     
-    return{
-        addToCart: (id)=>{dispatch(addToCart(id))}
-    }
-}
+//     return{
+//         addToCart: (id)=>{dispatch(addToCart(id))}
+//     }
+// }
 
-export default connect(mapStateToProps,mapDispatchToProps)(attractTicket)
+// export default connect(mapStateToProps,mapDispatchToProps)(attractTicket)

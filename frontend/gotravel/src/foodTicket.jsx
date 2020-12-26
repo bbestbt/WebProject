@@ -47,9 +47,12 @@ class foodTicket extends Component {
     //     })
     // }
 
-    handleClick = (id)=>{
-        this.props.addToCart(id); 
-    }
+    // handleClick = (id)=>{
+    //     this.props.addToCart(id); 
+    // }
+    handleClick() {
+        alert("full booking")
+      }
 
     render() {
         const {data,error,loading} =this.state;
@@ -75,7 +78,9 @@ class foodTicket extends Component {
                                 <h4 class="caption" >{food.title}</h4>
                                 <h6 class="caption">{food.promo}</h6>
                                 <h4 class="caption">{food.price} Baht</h4>
-                                <button align ="right" class="ticket"  onClick={()=>{this.handleClick(food.id)}}>Add to cart </button>
+                                <button align ="right" class="ticket"  onClick={this.handleClick}
+                                 onClick={()=>{this.handleClick(food.id)}}
+                                 >Add to cart </button>
                             </div>
                             
                             </div>
