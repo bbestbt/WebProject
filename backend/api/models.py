@@ -94,3 +94,12 @@ class Food(models.Model):
         return reverse("core:remove-from-cart", kwargs={
             'slug': self.slug
         })
+
+class Cart(models.Model):
+    title = models.CharField(max_length=100)
+    price = models.FloatField()
+    qty = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.title
+

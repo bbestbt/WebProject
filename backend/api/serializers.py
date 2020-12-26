@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
-from .models import Item,Hotel,Food
+from .models import Item,Hotel,Food,Cart
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model=User
@@ -53,4 +53,14 @@ class FoodSerializer(serializers.ModelSerializer):
             'price',
             'slug',
             'image'
+        ]
+
+class CartSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Food
+        fields = [
+            'id',
+            'title',
+            'price',
+            'qty',
         ]
