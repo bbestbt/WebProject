@@ -44,17 +44,19 @@ class Cart extends Component {
                             </div>
 
                             <div >
-                                <span >{item.title}</span>
-                                <p><b>Price: {item.price} Baht</b></p>
-                                <p>
+                                <span align="center">{item.title}</span>
+                                <p align="center"><b>Price: {item.price} Baht</b></p>
+                                <p align="center">
                                     <b>Quantity: {item.quantity}</b>
                                 </p>
-                                <div align="center">
-                                <Link to="/cart"><i  onClick={() => { this.handleAddQuantity(item.id) }}>+</i></Link> {" "} {" "}
-                                    <Link to="/cart"><i  onClick={() => { this.handleSubtractQuantity(item.id) }}>-</i></Link>
-                                </div>
+                                <p align="center">
+                                    <Link to="/cart"><b onClick={() => { this.handleAddQuantity(item.id) }}>+</b></Link> {" "} {" "}
+                                    <Link to="/cart"><b onClick={() => { this.handleSubtractQuantity(item.id) }}>-</b></Link>
+                                </p>
+                                <p align="center">
+                                    <button class="ticket"  onClick={() => { this.handleRemove(item.id) }}>Remove</button>
+                                </p>
 
-                                <button class="ticket"  onClick={() => { this.handleRemove(item.id) }}>Remove</button>
                             </div>
 
                         </li>

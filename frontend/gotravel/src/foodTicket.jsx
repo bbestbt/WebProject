@@ -130,17 +130,17 @@ class foodTicket extends Component {
         
     }
 }
-// export default foodTicket;
-const mapStateToProps = (state)=>{
-    return {
-      items: state.items
-    }
-  }
-const mapDispatchToProps= (dispatch)=>{
+export default foodTicket;
+// const mapStateToProps = (state)=>{
+//     return {
+//       items: state.items
+//     }
+//   }
+// const mapDispatchToProps= (dispatch)=>{
     
-    return{
-        addToCart: (id)=>{dispatch(addToCart(id))}
-    }
-}
+//     return{
+//         addToCart: (id)=>{dispatch(addToCart(id))}
+//     }
+// }
 
-export default connect(mapStateToProps,mapDispatchToProps)(foodTicket)
+// export default connect(mapStateToProps,mapDispatchToProps)(foodTicket)
