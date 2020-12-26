@@ -16,7 +16,10 @@ class Recipe extends Component {
     //         this.props.substractShipping();
     //     }
     // }
-
+    handleClick() {
+        alert("done")
+        window.location.href="/home";
+      }
     render() {
 
         return (
@@ -31,7 +34,7 @@ class Recipe extends Component {
                     <h5 ><b>Total: {this.props.total} Baht</b></h5>
 
 
-                    <button class="ticket" >Checkout</button>
+                    <button class="ticket" onClick={this.handleClick} >Checkout</button>
                 </div>
             </div>
         )
