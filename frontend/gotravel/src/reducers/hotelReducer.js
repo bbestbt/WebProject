@@ -21,97 +21,83 @@ import Item18 from '../images/p20.jpg'
 import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '../actions/action-types/cart-actions'
 
 
-const initState = {
-    items: [
-        {id:1,title:'SAFARI WORLD', desc: ".", price:2550,img:Item1},
-        {id:2,title:'SAFARI WORLD', desc: ".", price:1950,img: Item2},
-        {id:3,title:'SAFARI WORLD', desc: ".",price:720,img: Item3},
-        {id:4,title:'VANA NAVA WATER JUNGLE', desc: ".", price:950,img: Item4},
-        {id:5,title:'VANA NAVA WATER JUNGLE', desc: ".",price:590,img: Item5},
-        {id:6,title:'VANA NAVA WATER JUNGLE', desc: ".", price:1350,img: Item6},
-        {id:7,title:'VANA NAVA WATER JUNGLE', desc: ".",price:2890,img: Item7},
-        {id:8,title:'VANA NAVA WATER JUNGLE', desc: ".", price:5200,img: Item8},
-        {id:9,title:'PATTAYA SHEEP FARM', desc: ".", price:70,img: Item9},
-        {id:10,title:'PATTAYA SHEEP FARM', desc: ".", price:200,img: Item10},
-        {id:11,title:'PATTAYA SHEEP FARM', desc: ".", price:140,img: Item11},
-        {id:12,title:'PATTAYA SHEEP FARM', desc: ".", price:550,img: Item12},
-        {id:13,title:'PATTAYA DOLPHINARIUM', desc: ".", price:200,img: Item13},
-        {id:14,title:'PATTAYA DOLPHINARIUM', desc: ".", price:270,img: Item14},
-        {id:15,title:'PATTAYA DOLPHINARIUM', desc: ".", price:270,img: Item15},
-        {id:16,title:'PATTAYA DOLPHINARIUM', desc: ".", price:335,img: Item16},
-        {id:17,title:'PATTAYA DOLPHINARIUM', desc: ".", price:335,img: Item17},
+const hotelState = {
+    fooditems: [
+        {id:1,title:'h1', desc: ".", price:2550,img:Item1},
+        {id:2,title:'h2', desc: ".", price:1950,img: Item2},
+      
         // {id:18,title:'',desc: ".",price:578, img: Item18},
     ],
-    addedItems:[],
+    foodaddedItems:[],
     total: 0
 
 }
-const hotelReducer= (state = initState,action)=>{
+const hotelReducer= (state = hotelState,action)=>{
    
     //INSIDE HOME COMPONENT
     if(action.type === ADD_TO_CART){
-          let addedItem = state.items.find(item=> item.id === action.id)
-          //check if the action id exists in the addedItems
-         let existed_item= state.addedItems.find(item=> action.id === item.id)
+          let foodaddedItem = state.fooditems.find(item=> item.id === action.id)
+          //check if the action id exists in the foodaddedItems
+         let existed_item= state.foodaddedItems.find(item=> action.id === item.id)
          if(existed_item)
          {
-            addedItem.quantity += 1 
+            foodaddedItem.quantity += 1 
              return{
                 ...state,
-                 total: state.total + addedItem.price 
+                 total: state.total + foodaddedItem.price 
                   }
         }
          else{
-            addedItem.quantity = 1;
+            foodaddedItem.quantity = 1;
             //calculating the total
-            let newTotal = state.total + addedItem.price 
+            let newTotal = state.total + foodaddedItem.price 
             
             return{
                 ...state,
-                addedItems: [...state.addedItems, addedItem],
+                foodaddedItems: [...state.foodaddedItems, foodaddedItem],
                 total : newTotal
             }
             
         }
     }
     if(action.type === REMOVE_ITEM){
-        let itemToRemove= state.addedItems.find(item=> action.id === item.id)
-        let new_items = state.addedItems.filter(item=> action.id !== item.id)
+        let itemToRemove= state.foodaddedItems.find(item=> action.id === item.id)
+        let new_fooditems = state.foodaddedItems.filter(item=> action.id !== item.id)
         
         //calculating the total
         let newTotal = state.total - (itemToRemove.price * itemToRemove.quantity )
         console.log(itemToRemove)
         return{
             ...state,
-            addedItems: new_items,
+            foodaddedItems: new_fooditems,
             total: newTotal
         }
     }
     //INSIDE CART COMPONENT
     if(action.type=== ADD_QUANTITY){
-        let addedItem = state.items.find(item=> item.id === action.id)
-          addedItem.quantity += 1 
-          let newTotal = state.total + addedItem.price
+        let foodaddedItem = state.fooditems.find(item=> item.id === action.id)
+        foodaddedItem.quantity += 1 
+          let newTotal = state.total + foodaddedItem.price
           return{
               ...state,
               total: newTotal
           }
     }
     if(action.type=== SUB_QUANTITY){  
-        let addedItem = state.items.find(item=> item.id === action.id) 
+        let foodaddedItem = state.fooditems.find(item=> item.id === action.id) 
         //if the qt == 0 then it should be removed
-        if(addedItem.quantity === 1){
-            let new_items = state.addedItems.filter(item=>item.id !== action.id)
-            let newTotal = state.total - addedItem.price
+        if(foodaddedItem.quantity === 1){
+            let new_fooditems = state.foodaddedItems.filter(item=>item.id !== action.id)
+            let newTotal = state.total - foodaddedItem.price
             return{
                 ...state,
-                addedItems: new_items,
+                foodaddedItems: new_fooditems,
                 total: newTotal
             }
         }
         else {
-            addedItem.quantity -= 1
-            let newTotal = state.total - addedItem.price
+            foodaddedItem.quantity -= 1
+            let newTotal = state.total - foodaddedItem.price
             return{
                 ...state,
                 total: newTotal
