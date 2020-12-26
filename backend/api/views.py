@@ -8,7 +8,7 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.models import User
 from .serializers import UserSerializer,ItemSerializer,HotelSerializer,FoodSerializer,CartSerializer
 from rest_framework.generics import ListAPIView
-from .models import Item,OrderItem,Hotel,Food,Cart
+from .models import Item,Hotel,Food,Cart
 from django.utils import timezone
 
 # Create your views here.
@@ -47,11 +47,11 @@ class AddToCartView(viewsets.ModelViewSet):
         headers = self.get_success_headers(serializer.data)
         return Response(
            data={
-               "status": 201,
+            #    "status": 201,
                "message": "Product Successfully Created",                
                "data": serializer.data,                
                },
-               status=status.HTTP_201_CREATED,
+            #    status=status.HTTP_201_CREATED,
                headers=headers
            )
 

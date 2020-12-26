@@ -2,6 +2,7 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 from .models import Item,Hotel,Food,Cart
+from rest_framework.response import Response
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model=User
@@ -73,4 +74,4 @@ class CartSerializer(serializers.ModelSerializer):
 
             inserted_data = Cart.objects.create(**validated_data)
 
-            return Response(inserted_data)
+            return inserted_data

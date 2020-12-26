@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from .views import UserViewSet,ItemListView,AddToCartView,HotelListView,FoodListView,AddToCartView
+from .views import UserViewSet,ItemListView,AddToCartView,HotelListView,FoodListView
 
 
 router=routers.DefaultRouter()
