@@ -1,3 +1,4 @@
+import Axios from 'axios'
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 //import { addShipping } from './actions/cartActions'
@@ -18,14 +19,17 @@ class Recipe extends Component {
     // }
 
     state={
-        credentials: {username: '',password: ''}
+        data: {
+        title: "",
+        price: "",
+        qty:""}
         
     }
     handleClick = event => {
         fetch('http://127.0.0.1:8000/api/carts/',{
             method: 'POST',
             headers:{'Content-Type':'application/json'},
-            body: JSON.stringify(this.state.credentials)
+            body: JSON.stringify(this.state.data)
         })
         .then(function(response) {
             if (!response.ok) {
@@ -35,7 +39,6 @@ class Recipe extends Component {
             window.alert("done")
             window.location.href="/home"
         })
-    
       }
     render() {
 

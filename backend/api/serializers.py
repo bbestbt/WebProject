@@ -64,3 +64,13 @@ class CartSerializer(serializers.ModelSerializer):
             'price',
             'qty',
         ]
+    
+    def create(self, validated_data):
+            cart=validated_data
+
+            # If you want to pop any field from the incoming data then you can like below.
+            # popped_data = validated_data.pop('timeFrames')
+
+            inserted_data = Cart.objects.create(**validated_data)
+
+            return Response(inserted_data)
