@@ -11,9 +11,25 @@ import "./index.css";
 //test
 import Home from "./pages/Home";
 import Cart from './Cart';
-import { createStore } from 'redux';
+import { combineReducers, createStore } from 'redux';
 import { Provider } from 'react-redux';
 import cartReducer from './reducers/cartReducer';
+import foodReducer from './reducers/foodReducer';
+import hotelReducer from './reducers/hotelReducer';
+
+// export default combineReducers({
+//    foodReducer, 
+//    hotelReducer,
+//    cartReducer
+// })
+
+// const rootReducer = combineReducers({
+//    cart:cartReducer,
+//    food: foodReducer,
+//    hotel: hotelReducer
+// })
+
+// const store = createStore(rootReducer);
 
 
 const store = createStore(cartReducer);
