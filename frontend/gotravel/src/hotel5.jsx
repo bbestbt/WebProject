@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarMain from "./components/Navbar";
+
 
 
 class hotel5 extends Component {

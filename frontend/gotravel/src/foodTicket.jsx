@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarMain from "./components/Navbar";
+
 import food from "./promo/food.png"
 import {foodTicketURL,addToCartURL} from './constants'
 import { authAxios } from './utils';

@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import NavbarMain from "./components/Navbar";
-// import {
-//     BrowserRouter as Router,
-//     Link,
-//     Route,
-//     Switch,
-//   } from 'react-router-dom';
+
 import location from "./location.png"
 import recommended from "./recommended.png"
 import chaiyaphum from "./chaiyaphum.jpeg"

@@ -1,5 +1,5 @@
 import React,{ Component } from "react";
-import NavbarMain from "./components/Navbar";
+
 import {
     // BrowserRouter as Router,
     Link,
@@ -56,7 +56,7 @@ class login extends Component{
     render(){
         return(
         <div>
-        {/* <NavbarMain/> */}
+      
         <div class ="topBanner">
         </div>  
             <br></br>

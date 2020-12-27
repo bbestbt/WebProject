@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import NavbarMain from "./components/Navbar";
-// import {
-//     BrowserRouter as Router,
-//     Link,
-//     Route,
-//     Switch,
-//   } from 'react-router-dom';
+
 import axios from 'axios';
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
