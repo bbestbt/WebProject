@@ -72,6 +72,7 @@ class Cart extends Component {
             <div id = "bgHotel">
                 <div class="topBanner" >
                 </div>
+                <br></br>
                 <div id="hotel" class="register-header">
                 <img src={cart} width="60" height="60" ></img>
                 <h1 align="center">Cart</h1>
