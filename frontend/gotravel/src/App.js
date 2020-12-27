@@ -12,7 +12,7 @@ import LoginPage from './login';
 import FavPage from './addfav';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import Regis from './regis';
+
 
 
 import Login from './login';
@@ -999,7 +999,7 @@ class App extends Component {
               
             {/* test */}
               <Route path="/Home" component={withRouter(Home)} />
-              <Route path="/Regis" component={Regis} />
+            
 
             </Switch>
 

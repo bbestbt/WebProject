@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Recipe from './Recipe'
 import cart from "./carts.png"
-import up from "./up.png"
-import down from "./down.png"
+// import up from "./up.png"
+// import down from "./down.png"
 import {Button} from 'reactstrap'
 // import "./App.css"
 
