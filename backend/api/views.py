@@ -8,7 +8,7 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.models import User
 from .serializers import UserSerializer,ItemSerializer,HotelSerializer,FoodSerializer,CartSerializer
 from rest_framework.generics import ListAPIView
-from .models import Item,Hotel,Food,Cart
+from .models import Item,OrderItem,Hotel,Food,Cart
 from django.utils import timezone
 
 # Create your views here.
@@ -33,26 +33,26 @@ class FoodListView(ListAPIView):
 
 
 class AddToCartView(viewsets.ModelViewSet):
+    
+    queryset=User.objects.all()
     queryset=Cart.objects.all()
     serializer_class=CartSerializer
 
     def create(self, request, *args, **kwargs):        
-        serializer = self.get_serializer(data=request.data)        
-        serializer.is_valid(raise_exception=True)
+            serializer = self.get_serializer(data=request.data)        
+            serializer.is_valid(raise_exception=True)
 
-        # Here all incoming data we kept in serializer variable.
-        # Change the data in your way and then pass it inside perform_create()
+            # Here all incoming data we kept in serializer variable.
+            # Change the data in your way and then pass it inside perform_create()
 
-        self.perform_create(serializer)
-        headers = self.get_success_headers(serializer.data)
-        return Response(
-           data={
-            #    "status": 201,
-               "message": "Product Successfully Created",                
-               "data": serializer.data,                
-               },
-            #    status=status.HTTP_201_CREATED,
-               headers=headers
-           )
-
-    
+            self.perform_create(serializer)
+            headers = self.get_success_headers(serializer.data)
+            return Response(
+            data={
+                "status": 201,
+                "message": "Product Successfully Created",                
+                "data": serializer.data,                
+                },
+                status=status.HTTP_201_CREATED,
+                headers=headers
+            )

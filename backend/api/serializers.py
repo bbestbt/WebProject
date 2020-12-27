@@ -2,7 +2,6 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 from .models import Item,Hotel,Food,Cart
-from rest_framework.response import Response
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model=User
@@ -60,18 +59,14 @@ class CartSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cart
         fields = [
-            'id',
-            'title',
-            'price',
-            'qty',
+        "id",
+        "title",
+        "price",
+        
         ]
-    
+
     def create(self, validated_data):
             cart=validated_data
-
-            # If you want to pop any field from the incoming data then you can like below.
-            # popped_data = validated_data.pop('timeFrames')
-
             inserted_data = Cart.objects.create(**validated_data)
 
-            return inserted_data
+            return Response(inserted_data) 
