@@ -22,7 +22,7 @@ class phayao4 extends Component {
             
             <h1 align="center">Mae Puem National Park</h1>
             <div align="center">
-                <img src="https://lh3.googleusercontent.com/proxy/9uEWHFn47OmNETTSAHjf9NVr7zEmGL4Wt8Dn2ec9Zie88eJOGi8Ks5F9A1hOJtryaZET0A9dDhm0onzfQ27bDXAKihI3eA5UsU_yrYjNHeANO1FqvEqhFi3wTNHvTh9GFbD80SeDQ1i8rEUbmeKSQFCby-k"  id="touristInfo" ></img>
+                <img src="https://www.mychiangmaitravel.com/wp-content/uploads/2019/07/mae-puem-national-park01.jpg"  id="touristInfo" ></img>
                 <img src="https://www.mychiangmaitravel.com/wp-content/uploads/2019/07/mae-puem-national-park03.jpg"  id="touristInfo" ></img>
                 <img src="https://mychiangmaitour.com/wp-content/uploads/2019/05/mae_puem_national_park01.jpg"  id="touristInfo" ></img>
                 <img src="https://previews.123rf.com/images/kobchaima/kobchaima1701/kobchaima170102527/69048980-landscape-view-of-mae-puem-national-park-thailand.jpg"  id="touristInfo" ></img>

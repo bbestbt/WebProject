@@ -23,7 +23,7 @@ class phu2 extends Component {
             <div align="center">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-p/11/dd/b5/6b/photo0jpg.jpg"  id="touristInfo" ></img>
                 <img src="https://www.thai-tour.com/thai-tour/north/petchbun/images/somdej-phra-naresuan-maharat-shrine/somdej-phra-naresuan-maharat-shrine2.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/nMEB2ZfF5KXrWV0N2dLlIWTP0UlvrxAsjg60ev6qtzrJdLB97Ih1PEaVTLsOgN_TqlQO0HAqiPLavMF8mQd6fhSsLiEshTLPobhVjJYgGebVOmHf-WM"  id="touristInfo" ></img>
+                <img src="https://lh6.googleusercontent.com/-RKXMpTrqQcA/WCbrzX07ihI/AAAAAAAAxMI/2_9I9ib6JQwkeALEJJ0RGQ5Wbkown7QzQCLIB/s1600-w400/"  id="touristInfo" ></img>
                 <img src="https://lh3.googleusercontent.com/p/AF1QipMzQgiYhbOFyS6z9twfe2XyFduetBqwgUiB1H87=s1600-w400"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

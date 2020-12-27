@@ -22,7 +22,7 @@ class Phatthalung2 extends Component {
             <h1 align="center">Khao Aok Talu</h1>
             <div align="center">
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013067_1.jpeg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/BzAdKyR6pSqywov9c1tPFGZ08R4fmeb9Eh-WhkuD91v_Py98_YtrPWlWH8g_iki-Fdep_RhWYDjvO0pqX-c5871tsK-v3_AbNijv68c25Q"  id="touristInfo" ></img>
+                <img src="https://i0.wp.com/thailandlocaltravel.com/wp-content/uploads/2018/10/Khao-Aok-Talu-2-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%AD%E0%B8%81%E0%B8%97%E0%B8%B0%E0%B8%A5%E0%B8%B8-2.jpg?fit=1701%2C987&ssl=1"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

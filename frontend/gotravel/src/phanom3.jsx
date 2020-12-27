@@ -23,7 +23,7 @@ class phanom3 extends Component {
             <div align="center">
                 <img src="https://www.publicdomainpictures.net/pictures/340000/velka/wat-phra-that-phanom-temple-nakhon-phanom-thailand-1588673558LH4.jpg"  id="touristInfo" ></img>
                 <img src="https://patricklepetit.jalbum.net/NAKHON%20PHANOM/PHOTOS/THAT%20PHANOM/Wat%20Phra%20That%20Phanom/K1202185_resize.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/K3zpjMKYEDmov8S_PClvyH9vino7n3RBzD4-xHR2dkqh3Jrc6_jGfLo-0lItvOT3obE5-oaO6Bx12GgNFefs8XMIBT-Ndw1PzVEqPKssbbq5dXJf1I1SwY-0zJG4nYHN8FMDRfBO826R"  id="touristInfo" ></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Prathatphanom_03.jpg"  id="touristInfo" ></img>
                 <img src="https://previews.123rf.com/images/fordzolo/fordzolo1412/fordzolo141200889/34780599-wat-phra-that-phanom-nakhon-phanom.jpg"  id="touristInfo" ></img>  
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

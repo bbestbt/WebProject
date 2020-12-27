@@ -24,7 +24,7 @@ class phet4 extends Component {
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03006443_1.jpeg"  id="touristInfo" ></img>
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03006443_2.jpeg"  id="touristInfo" ></img>
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03006443_3.jpeg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/3Kw2CF3ir1cZP9YM9rytF1jNZzORIPN2NH-ZOG4sM9fvkChDN_wmPs2a6C2Sh87Z36zbDq7mJLLa-q4Fz3egwrLb0Ao06G6gPGpVhH81iV-D_Dx9f3DfBVCyYAVAVz8B2Rk"  id="touristInfo" ></img>
+                <img src="https://static.asiawebdirect.com/m/bangkok/portals/huahin-bangkok-com/homepage/cha-am/maruekathaiyawan/allParagraphs/BucketComponent/ListingContainer/02/image/031.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

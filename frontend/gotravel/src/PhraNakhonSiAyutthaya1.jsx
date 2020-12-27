@@ -22,10 +22,10 @@ class PhraNakhonSiAyutthaya1 extends Component {
             
             <h1 align="center">Ayothaya Floating Market</h1>
             <div align="center">
-                <img src="https://lh3.googleusercontent.com/proxy/WhrsS5B_HTKUMHcXrjpTDxJ75W8rmo34reGSTUTTQpkRLfI6NwUNFrHq5EX-vxBHSzuxK7JJZXoqprv9fvUdpikWExgbO6wSfywG42SFge1v0dsR0x6sYqnL0J_KVlbIWg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/lqoe__imCWQY_FdiYLk3vpG1eTLyCaZxN59_ydvp9AdEy99k9hBXNnX5KhSdppYyvm3qVGd2_7cGGc0gRTesJqFvtarBLN8M3TZ7dxesFG0A1NcJLP6ARH7xO6XtOh5-_A"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/WhZUJxnbqkbv3BIJQ6GFlvbFvlHKBZjIBEGppCOJPS5GgN0iYLrWfb-N-utIkWSljeyImThlEUFE2ZYAQDuxA280WHIE45vP2wHbjLfJQApkjOq8HrqVqwbyqodMON5-Bg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/EMibjPYAFuT_XxfqkF2cjbhF8qCGDhCyxyP5Db1PDQ9j_LJBBrYwZX02UmJHjZfdGpKalizocGlzWV6TObP-JWzVtXbtUPye5lzydDsMmuvfm7ZSTqyLG5wXLShc"  id="touristInfo" ></img>
+                <img src="https://previews.123rf.com/images/potowizard/potowizard1305/potowizard130500011/19581516-ayothaya-floating-market.jpg"  id="touristInfo" ></img>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/80/5d/0b/ayutthaya-floating-market.jpg"  id="touristInfo" ></img>
+                <img src="https://static1.bigstockphoto.com/0/9/1/large1500/190705849.jpg"  id="touristInfo" ></img>
+                <img src="https://previews.123rf.com/images/kaewjack/kaewjack1205/kaewjack120500019/13744685-ayothaya-floating-market.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

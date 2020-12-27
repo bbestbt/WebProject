@@ -22,7 +22,7 @@ class Phangnga2 extends Component {
             <h1 align="center">Ton Pariwat Wildlife Sanctuary</h1>
             <div align="center">
                 <img src="https://sealandcamp.com/uploads/news/2/news1201012711.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/4nPq_UnP3qLONonQq-go-DWOpuYBnmMKvTfuzC_rpnw7t-XZwSmzcNJCfuHyGyWEPJ9WHLCV2CkjmysN8EjeHdYw-wB-ye7a-e_mOgzc7ZrJlVvEEw0ntiqUu4WyndC7SB8I3v3flG6ukWquve6u_HMDTL-u23a-HH3ItG6A2rQZ9srnxh4"  id="touristInfo" ></img>
+                <img src="https://www.thailandcarsrentals.com/wp-content/uploads/2016/02/ton-pariwat-waildlife.jpg"  id="touristInfo" ></img>
                 
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

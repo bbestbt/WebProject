@@ -24,7 +24,7 @@ class phet1 extends Component {
                 <img src="https://tatapi.tourismthailand.org/tatfs/image/CustomPOI/Picture/P03006069_1.jpeg"  id="touristInfo" ></img>
                 <img src="https://www.egat.co.th/en/images/Media/PD/kaengkrachan/kaengkrachan.jpg"  id="touristInfo" ></img>
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/c2/3d/98/kaeng-krachan-dam.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/nPuaf4rkJlFcqdndBMfv9p2iBhS83QzLrF-yXYJvYY0LXum_CnlaXXN3EF16Xo91e-ntKyorlncjwPwDFvETx3ThVSpgSzIES-NLIQ"  id="touristInfo" ></img>
+                <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/k7bx5lfvsmgod50a7vor/KaengKrachanNationalParkBoatTour.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

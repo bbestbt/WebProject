@@ -22,8 +22,6 @@ class Ranong4 extends Component {
             
             <h1 align="center">Lam Nam Kra Buri National Park</h1>
             <div align="center">
-                <img src="https://lh3.googleusercontent.com/proxy/boMPTQdnIoHKonFBn__KhRulmQfvMXqwhEO6hbZuSB96EePyfUo8J9ksuQ3DYgDePhqzer0N3erd7UthxWB6yFa970D3GRuFR4bHZj1cQa5mXaN3cZ2Ptg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/iXN3dkmXk1YAsq5Gyxl8Vk167Wn5l8RettbCAZg5ZEAImOJcigL32MVH42cxd0J8yRiQ80Je8tBLBRYmFdjppA"  id="touristInfo" ></img>
                 <img src="https://previews.123rf.com/images/gajokfilm/gajokfilm1611/gajokfilm161100008/64979390-pun-ya-ban-waterfall-at-lamnam-kra-buri-national-park-in-ranong-thailand.jpg"  id="touristInfo" ></img>
                 <img src="https://previews.123rf.com/images/gajokfilm/gajokfilm1611/gajokfilm161100009/64979391-pun-ya-ban-waterfall-at-lamnam-kra-buri-national-park-in-ranong-thailand.jpg"  id="touristInfo" ></img>
             </div>

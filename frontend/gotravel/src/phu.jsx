@@ -37,7 +37,7 @@ class phu extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/phu3"> <img src="https://lh3.googleusercontent.com/proxy/q9MxvjLnk2qxv39XF7t1s8uTjX9NGH6IUbrGCO8CheMevQdaCZopf2kyF4AUMGG0FhWrvpFnRfHhxJMFjIdhbbMuaH3edZ0bCUDKxLhGebzcUB_WrOt-uK2D5yVd9gbSfAuAArtWE_i_IJHpXOtVpjboMm35nufn" class="allPlace" ></img></Link>
+        <Link to="/phu3"> <img src="https://thailandtourismdirectory.go.th/en/file/get/file/20171127a43683d33b40f413228d54e3c6ed4a2f141758.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Wat Tham Klong Phen</h6>                

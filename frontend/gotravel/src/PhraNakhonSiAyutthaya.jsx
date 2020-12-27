@@ -26,7 +26,7 @@ class PhraNakhonSiAyutthaya extends Component {
         {/* <div align="center"> */}
 
         <div class="placeProvince">
-        <Link to="/PhraNakhonSiAyutthaya1"> <img src="https://lh3.googleusercontent.com/proxy/WhrsS5B_HTKUMHcXrjpTDxJ75W8rmo34reGSTUTTQpkRLfI6NwUNFrHq5EX-vxBHSzuxK7JJZXoqprv9fvUdpikWExgbO6wSfywG42SFge1v0dsR0x6sYqnL0J_KVlbIWg" class="allPlace" ></img></Link>
+        <Link to="/PhraNakhonSiAyutthaya1"> <img src="https://previews.123rf.com/images/potowizard/potowizard1305/potowizard130500011/19581516-ayothaya-floating-market.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Ayothaya Floating Market</h6>          

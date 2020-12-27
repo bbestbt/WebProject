@@ -25,7 +25,7 @@ class phayao3 extends Component {
                 <img src="https://mychiangmaitour.com/wp-content/uploads/2019/05/Kwan-Phayao14.jpg"  id="touristInfo" ></img>
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/4d/5f/b1/dragon.jpg"  id="touristInfo" ></img>
                 <img src="https://img.freepik.com/free-photo/beautiful-view-kwan-phayao-thailand-with-soft-focus_41050-2694.jpg?size=626&ext=jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/Phro83EcI3zrHnRDRKGw5QO0nNeMXamyj1RFohhXRRv5wJKFMhdSfi_tE8_bYsvnRyeD7BOrokQrA2_ZACtzluutuFGzjfH_CrXTsThg9TdUg1AVT3ZzCmFC"  id="touristInfo" ></img>         
+                <img src="https://tatapi.tourismthailand.org/tatfs/image/CustomPOI/Picture/P03001907_1.jpeg"  id="touristInfo" ></img>         
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

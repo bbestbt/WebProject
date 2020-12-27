@@ -21,9 +21,9 @@ class phanom2 extends Component {
             
             <h1 align="center">Wat Maha That Temple </h1>
             <div align="center">
-                <img src="https://lh3.googleusercontent.com/proxy/vWTZcTQsFjzFCU6fTQHDj7bsLBFdfvKpKzeY5zxEzLdi6nqMyQdOrFi4HO6nCGqWfDihyeCs2tTYfkHHtRujftW9ccEiTffs6gvO10toaFHzNugJQusOESUY-QfkGawS0giLj2G_"  id="touristInfo" ></img>
+                <img src="https://www.renown-travel.com/images/wat-mahathat-ayutthaya-l.jpg"  id="touristInfo" ></img>
                 <img src="https://www.renown-travel.com/images/wat-mahathat-sukhothai-l.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/xHe-OcgSxWvY5Qmgt9IOSHaDqzyBdToY0LgQkP9HaVHWnoJjo5g6Y0WJBbhucAAOkSI933eFE544o_kXccOxjYucLWGqxxGCTCyab9X7fTSTLBGNQndxGcYOBL6f_IyAftg"  id="touristInfo" ></img>
+                <img src="https://www.bkktours.com/wp-content/uploads/2016/04/WatMahathat_6.jpg"  id="touristInfo" ></img>
                 <img src="https://architectureofbuddhism.com/books/wp-content/uploads/2014/08/Wat-Mahathat-1.jpg"  id="touristInfo" ></img>  
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

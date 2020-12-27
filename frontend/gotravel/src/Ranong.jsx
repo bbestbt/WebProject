@@ -52,7 +52,7 @@ class Ranong extends Component {
 
 
         <div class="placeProvince">
-        <Link to="/Ranong4"> <img src="https://lh3.googleusercontent.com/proxy/boMPTQdnIoHKonFBn__KhRulmQfvMXqwhEO6hbZuSB96EePyfUo8J9ksuQ3DYgDePhqzer0N3erd7UthxWB6yFa970D3GRuFR4bHZj1cQa5mXaN3cZ2Ptg"  class="allPlace"   ></img></Link>
+        <Link to="/Ranong4"> <img src="https://previews.123rf.com/images/gajokfilm/gajokfilm1611/gajokfilm161100008/64979390-pun-ya-ban-waterfall-at-lamnam-kra-buri-national-park-in-ranong-thailand.jpg"  class="allPlace"   ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Lam Nam Kra Buri National Park</h6>
