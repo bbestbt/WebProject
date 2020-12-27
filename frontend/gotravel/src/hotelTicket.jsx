@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavbarMain from "./components/Navbar";
 import {
     // BrowserRouter as Router,
-    Link,
+    Link, Redirect,
     // Route,
     // Switch,
   } from 'react-router-dom';
@@ -16,9 +16,11 @@ class hotelTicket extends Component {
     state={
         loading:false,
         error:null,
-        data:[]
+        data:[],
+        redirect:false,
+        id:null,
     }
-
+    //getapi
     componentDidMount(){
         this.setState({loading:true})
         axios
@@ -31,33 +33,37 @@ class hotelTicket extends Component {
             this.setState({error:err,loading:false})
         })
     }
-
-    // handleAddToCart=slug=>{
-    //     this.setState({loading:true})
-    //     authAxios
-    //     // axios
-    //     .post(addToCartURL,{slug})
-    //     .then(res=>{
-    //         console.log(res.data)
-    //         //update cart count
-    //         this.setState({loading:false})
-    //     })
-    //     .catch(err=>{
-    //         this.setState({error:err,loading:false})
-    //     })
-    // }
-
-    handleClick = (id)=>{
-        this.props.addToCart(id); 
+    //addtocartfunc
+    click = (id)=>{
+        console.log(id)
+        this.props.addToCart(id);
+        console.log(id)
+        id = id -1
+        console.log(this.state.data[id])
+        this.setState({redirect: true});
+        this.setState({id: (id)});
+        
+        // this.setState({})
+        
     }
 
     render() { 
+        
         const {data,error,loading} =this.state;
         return (
+        
         <div>
+            {this.state.redirect ? (
+          <Redirect
+            to={{
+              pathname: "/cart",
+              state: { property_id: this.state.data[this.state.id] },
+            }}
+          />
+            ) : null} 
              {/* <NavbarMain /> */}
-        <div class="topBanner" >
-        </div>
+            <div class="topBanner" >
+            </div>
         
          <div id="bgHotel">
          <br></br>
@@ -68,17 +74,22 @@ class hotelTicket extends Component {
         <div id="placePromo">
         <br></br>
         {data.map(hotel => {
+            //  console.log(hotel)
             return  <div align="center" key={hotel.id}>
+               
                 <div class="allHotel">
-                    <img src={hotel.image} class="promoImg"  ></img>
+                    <img src={hotel.image} class="promoImg"></img>
                     <h4 class="caption" >{hotel.title}</h4>
                     <h4 >Price : {hotel.price} Baht</h4>
                     <h5>Address : {hotel.address}</h5>
                     <h5>Phone : {hotel.phone}</h5>
                     <h5>Website : {hotel.website}</h5>
-                    <button class="ticket" 
-                onClick={()=>{this.handleClick(hotel.id)}}
-                >Add to cart </button>
+
+                    <button id="jui" className="ticket" onClick={() => {this.click(hotel.id)}} >Add to cart</button>
+
+                    {/* <button class="ticket" 
+                    onClick={()=>{this.handleClick(hotel.id)}}
+                >Add to cart </button> */}
                 </div>
                 
             <div>
@@ -89,48 +100,6 @@ class hotelTicket extends Component {
             </div>
               })}
               </div>
-     
-        
-        {/* <div id="placePromo">
-            <br></br>
-            <div align="center" >
-                <div class="allHotel">
-                    <Link to="/hotel1"> <img src={h1} class="promoImg"  ></img></Link>
-                    <h4 class="caption" >El barrio lanna hotel</h4>
-                </div>
-
-                <div class="allHotel">
-                    <Link to="/hotel2"> <img src="https://media-cdn.tripadvisor.com/media/photo-o/11/26/fc/ad/rainforest-boutique.jpg" class="promoImg"  ></img></Link>
-                    <h4 class="caption" >Rainforest Chiangmai Hotel</h4>
-                </div>
-
-                <div class="allHotel">
-                    <Link to="/hotel3"> <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/12/21/10/panan-krabi-resort.jpg" class="promoImg"  ></img></Link>
-                    <h4 class="caption" >Panan Krabi Resort</h4>
-                </div>
-                
-                <div class="allHotel">
-                    <Link to="/hotel4"> <img src="https://media-cdn.tripadvisor.com/media/photo-o/0e/e5/0d/c3/d-varee-diva-central.jpg" class="promoImg"  ></img></Link>
-                    <h4 class="caption" >D Varee Diva Central Rayong</h4>
-                </div>
-
-                <div class="allHotel">
-                    <Link to="/hotel5"> <img src="https://media-cdn.tripadvisor.com/media/photo-o/15/d8/ea/7a/natee-the-riverfront.jpg" class="promoImg"  ></img></Link>
-                    <h4 class="caption" >Natee The Riverfront Hotel</h4>
-                </div>
-                
-                <div class="allHotel">
-                    <Link to="/hotel6"> <img src="https://media-cdn.tripadvisor.com/media/photo-o/0e/86/48/a8/bluesotel-krabi-ao-nang.jpg" class="promoImg"  ></img></Link>
-                    <h4 class="caption" >BlueSotel Krabi</h4>
-                </div>
-
-                    
-            </div> */}
-            
-        {/* </div> */}
-    
-       
-
 
         </div>
         </div>

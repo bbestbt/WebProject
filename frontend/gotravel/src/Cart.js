@@ -11,13 +11,28 @@ import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Recipe from './Recipe'
 import cart from "./carts.png"
+import up from "./up.png"
+import down from "./down.png"
+import {Button} from 'reactstrap'
+// import "./App.css"
+
 
 import { removeItem, addQuantity, subtractQuantity } from './actions/cartActions'
 
 
-
-
 class Cart extends Component {
+
+    constructor(props){
+        super(props)
+        this.data=[]
+        const {title, image, price} = this.props.location.state.property_id;
+        console.log( title )
+        console.log( image )
+        console.log( price )
+        this.title = title
+        this.image = image
+        this.price = price
+    }
 
     handleRemove = (id) => {
         this.props.removeItem(id);
@@ -31,46 +46,68 @@ class Cart extends Component {
         this.props.subtractQuantity(id);
     }
 
+    click = () => {
+        
+        console.log(this.data)
+        axios
+          .post("http://127.0.0.1:8000/api/carts/", {
+           title: this.title,
+           price: this.price,
+           
+          })
+          .then(() => {
+            // console.log("response: ", response);
+           
+          })
+          .catch((err) => {
+            console.error(err); 
+          });
+        window.location.href="/home"  
+        alert("Confirmation Complete")
+    };
+
     render() {
-        let addedItems = this.props.items.length ?
-            (
-                this.props.items.map(item => {
-                    return (
+        return (
+            
+            <div id = "bgHotel">
+                <div class="topBanner" >
+                </div>
+                <div id="hotel" class="register-header">
+                <img src={cart} width="60" height="60" ></img>
+                <h1 align="center">Cart</h1>
+                </div>
 
-
-                        <li id="placePromo" key={item.id}>
+                        <li id="placePromo" key={this.id}>
                             <div >
-                                <img src={item.img} alt={item.img} class="promoImg" />
+                                <img src={this.image} alt={this.image} class="promoImg" />
                             </div>
 
                             <div >
-                                <span align="center">{item.title}</span>
-                                <p align="center"><b>Price: {item.price} Baht</b></p>
-                                <p align="center">
-                                    <b>Quantity: {item.quantity}</b>
-                                </p>
-                                <p align="center">
-                                    <Link to="/cart"><b onClick={() => { this.handleAddQuantity(item.id) }}>+</b></Link> {" "} {" "}
-                                    <Link to="/cart"><b onClick={() => { this.handleSubtractQuantity(item.id) }}>-</b></Link>
-                                </p>
-                                <p align="center">
-                                    <button class="ticket"  onClick={() => { this.handleRemove(item.id) }}>Remove</button>
-                                </p>
+                                <span >{this.title}</span>
+                                <p><b>Price: {this.price} Baht</b></p>
+                                
+                                {/* <div classname = "add-remove" align="center">
+                                    <Link to="/cart"><Button><i  onClick={() => { this.handleAddQuantity(item.id) }}>Add</i></Button></Link> 
+                                    <Link to="/cart"><Button><i  onClick={() => { this.handleSubtractQuantity(item.id) }}>Subtract</i></Button></Link>
+                                </div> */}
 
+                                {/* <button class="ticket" onClick={() => { this.handleRemove(item.id) }}>Remove</button> */}
+                                <button class='confirm' onClick = {this.click}>
+                                    Confirmation
+                                </button>
                             </div>
 
                         </li>
-
+            </div>
                     )
-                })
-            ) :
+              
 
-            (
-                <div>
-                    <br></br>
-                    <h5 align="center">Nothing</h5>
-                </div>
-            )
+            // (
+            //     <div>
+            //         <br></br>
+            //         <h5 align="center">Nothing</h5>
+            //     </div>
+            // )
         return (
 
             <div>
@@ -83,9 +120,9 @@ class Cart extends Component {
                         <img src={cart} width="60" height="60" ></img>
                         <h1 align="center">Order</h1>
                     </div>
-                    <ul >
+                    {/* <ul >
                         {addedItems}
-                    </ul>
+                    </ul> */}
                     <Recipe />
                 </div>
 
