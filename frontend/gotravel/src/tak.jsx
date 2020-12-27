@@ -26,42 +26,31 @@ class tak extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/tak1"> <img src={maekasa} alt="mae kasa" class="allPlace" ></img></Link>
+        <Link to="/tak1"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/60/67/a1/mae-ka-sa-hotsprings.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Mae Kasa Hot Spring</h6>
-
-                
+            <h6 align="center">Mae Kasa Hot Spring</h6>    
+        </div>
+    
+        <div class="placeProvince">
+        <Link to="/tak2"> <img src="https://image.freepik.com/free-photo/thi-lor-su-waterfall-is-most-beautiful-waterfall-thailand_56644-241.jpg" class="allPlace" ></img></Link>
+            <br></br>
+            <br></br>
+            <h6 align="center">Thi Lor Su Waterfall</h6>    
         </div>
 
-
         <div class="placeProvince">
-        <Link to="/tak2"> <img src={t2} alt="Thi Lor Su Waterfall" class="allPlace"  ></img></Link>
+        <Link to="/tak3"> <img src="https://www.egat.co.th/en/images/Media/PD/bhumibol/a_9.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Thi Lor Su Waterfall</h6>
-
-                
+            <h6 align="center">Bhumibol Dam</h6>                
         </div>
 
-
         <div class="placeProvince">
-        <Link to="/tak3"> <img src={t3} alt="Bhumibol Dam"  class="allPlace"  ></img></Link>
+        <Link to="/tak4"> <img src="https://media.istockphoto.com/photos/sunset-at-mountain-valley-beautiful-nature-in-doi-thule-tak-province-picture-id947140408?k=6&m=947140408&s=170667a&w=0&h=0BF7GKZh0Yu5PchZkVyaQ-bjyVwQaz8KiaxMCZoD-dE=" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Bhumibol Dam</h6>
-  
-                
-        </div>
-
-
-        <div class="placeProvince">
-        <Link to="/tak4"> <img src={t4} alt="Doi Thule"  class="allPlace"   ></img></Link>
-            <br></br>
-            <br></br>
-            <h6 align="center">Doi Thule</h6>
-
-                
+            <h6 align="center">Doi Thule</h6>    
         </div>
 
         </div>

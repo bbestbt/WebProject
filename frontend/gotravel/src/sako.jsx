@@ -30,7 +30,7 @@ class sako extends Component {
         </div>
     
         <div class="placeProvince">
-        <Link to="/sako2"> <img src="https://itsbetterinthailand.com/wp-content/uploads/sites/4/2019/02/Wat-Phra-That-Choeng-Chum.jpg" class="allPlace" ></img></Link>
+        <Link to="/sako2"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/07/ba/53/30/caption.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Wat Phra That Choeng Chum Worawihan Temple</h6>    

@@ -22,7 +22,7 @@ class SuratThani3 extends Component {
             <h1 align="center">Tai Rom Yen National Park</h1>
             <div align="center">
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013033_1.jpeg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/pl_RrrCDFjmrZ7pleisOh3q21AjqZC_6qSnnVnfdoffvR7DDwiAo8RnD6Gsmj2pYmPjMKi-iDbBUAovyTZ9PzAyU6Za4zLJBFSuCI6q_Y6E5Bo2hOTOnhuoKOCYRXrCFZ-SqLFG-ThkM9U9f4J6t2LRp9YZhuxoog6fd"  id="touristInfo" ></img>
+                <img src="https://www.bangkokpost.com/photos_content/large/prefix_1/0243/15243/15243-1295251813s24dkjwmrt.jpg"  id="touristInfo" ></img>
                 <img src="https://alchetron.com/cdn/tai-rom-yen-national-park-61557e10-60c3-40b5-aec9-a0ded3b1d0c-resize-750.jpg"  id="touristInfo" ></img>
                 <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/96/6c/3f.jpg"  id="touristInfo" ></img>
             </div>

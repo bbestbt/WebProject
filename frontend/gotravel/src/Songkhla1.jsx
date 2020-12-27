@@ -23,8 +23,6 @@ class Songkhla1 extends Component {
             <h1 align="center">Chang Puak Camp</h1>
             <div align="center">
                 <img src= "https://media-cdn.tripadvisor.com/media/photo-s/17/a9/dd/14/photo0jpg.jpg"  id="touristInfo" ></img>
-                <img src= "https://lh3.googleusercontent.com/proxy/oxoNlAchbRw6AkLUS8YFkPmeEbSe613l6PpwafYVi0sK5Re_5NzFYdrO6lWFYDud5K85TJMOFs3pyLTwTNXAieu8VxSfnO4QjumqEZzZF9330BVL0_ar5kij3QaZmCOK"  id="touristInfo" ></img>
-                <img src= "https://lh3.googleusercontent.com/proxy/gpMLsDH2zE_zWZCwMDnhdH33GttAnCa9stirGLKQ9QjZ6snmntOoDf1EXhgCWdDNsTKKLgBO1UB6x6wQ-Jb7Fc7zNZZDjR3QtmSqVy9LpndOI7M8bgMLLrEU1yNFRRQQ"  id="touristInfo" ></img>
                 <img src= "https://joinfull.com/uploads/cms/images/chang-puak-camp-damnoen-saduak-10.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

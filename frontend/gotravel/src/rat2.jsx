@@ -24,7 +24,7 @@ class rat2 extends Component {
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03007651_1.jpeg"  id="touristInfo" ></img>
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03007651_2.jpeg"  id="touristInfo" ></img>
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03007651_3.jpeg"  id="touristInfo" ></img>
-                <img src="https://itsbetterinthailand.com/wp-content/uploads/sites/4/2019/03/IMG_6278.jpg"  id="touristInfo" ></img>
+                <img src="https://itsbetterinthailand.com/wp-content/uploads/2019/03/Ratchaburi-national-museum-cover.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

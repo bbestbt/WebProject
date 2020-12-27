@@ -24,7 +24,7 @@ class ratcha2 extends Component {
                 <img src="https://www.thailandee.com/img/villes/nakhon-ratchasima/wat-sala-loi-korat.jpg"  id="touristInfo" ></img>
                 <img src="https://i.ytimg.com/vi/zGKsyLgMptI/maxresdefault.jpg"  id="touristInfo" ></img>
                 <img src="https://www.thailandee.com/img/image?v=2&a=2bb%3DLq%3Dbd1Hv2TUVmPKrDROeLT%3DMEqJeLyUVMu-tLvgZ2yOFEDHf%3DyYKpDYeLTgMEq%3Df%3DRuxpTUfETUt2kuFpThKL5WhMvg3p5ffM5VhpkSjMyMrERHq2TB32Rm6YPs-ERHKJTV02wGrXvSuLy-9mvYtLD41JDYx2TOFmPKqYk-rLyOPpT-rX0B1%3DTI9mvutJyVv2TANmPevpTUxJk-rM5V6Jkm6Jvg9M5AO"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/hyff6-ICGTLNZdg8xkyaPgSThJGfFKZ_xfeIrgRko8tPLFDxXb8i5xANoHlA7ENZSwDCh4Uw_Q0dt-I5o6Z80YUkIFWf46pNKzN1VFC1YRYtXiw7rzeonTJmmH3va_VC2wTD--_YRiYlFhqxmFzxaw"  id="touristInfo" ></img>  
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013299_1.jpeg"  id="touristInfo" ></img>  
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

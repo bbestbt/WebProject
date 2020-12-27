@@ -22,10 +22,8 @@ class tak2 extends Component {
             
             <h1 align="center">Thi Lor Su Waterfall</h1>
             <div align="center">
-                <img src={require("./west/tak2.jpeg")}  id="touristInfo" ></img>
-                <img src={require("./west/tak22.jpeg")}  id="touristInfo" ></img>
-                <img src={require("./west/tak23.jpeg")} id="touristInfo" ></img>
-                <img src={require("./west/tak24.jpg")}  id="touristInfo" ></img>
+                <img src="https://image.freepik.com/free-photo/thi-lor-su-waterfall-is-most-beautiful-waterfall-thailand_56644-241.jpg"  id="touristInfo" ></img>
+                <img src="https://readme.me/f/821/5593b1e4674fbfbc641a2ae5.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
            <ul class="infoAttract">

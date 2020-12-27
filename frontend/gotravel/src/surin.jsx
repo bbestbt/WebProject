@@ -23,7 +23,7 @@ class surin extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/surin1"> <img src="https://lh3.googleusercontent.com/proxy/lChJ_RUsotWyX1_aIeMyUR4Gnd6_86MSZkCwFitYd3wUsWllMRGSELkZak5SqIX78GMiEGe5srLOIYFUAv842xMwwb5VrgTMUlUPmxZN9DnjLjEp_FhSAA" class="allPlace" ></img></Link>
+        <Link to="/surin1"> <img src="https://3.bp.blogspot.com/-kB_ET2nQV6c/VRU_QVjPZGI/AAAAAAAABOw/DCQcvX2rLLE/s1600/%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%2B1_1425196708.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Surin National Museum</h6>    
@@ -47,8 +47,7 @@ class surin extends Component {
         <Link to="/surin4"> <img src="https://temple-thai.com/wp-content/uploads/2018/01/wat-burapharam-ubon-ratchathani-2.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
-            <h6 align="center">Wat Burapharam
-</h6>    
+            <h6 align="center">Wat Burapharam</h6>    
         </div>
 
         </div>

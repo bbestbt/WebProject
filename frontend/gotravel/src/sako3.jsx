@@ -25,7 +25,7 @@ class sako3 extends Component {
             <div align="center">
                 <img src="https://s.isanook.com/tr/0/ud/188/942203/001.jpg"  id="touristInfo" ></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Nong_Han_Lake_%282499138321%29.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/pW_CmRgjgc9idYBhQW6Bxt07ZZnSs7i2d5nb2Lfrq-lAbfkkMJZr78vu6Ub8nE_1xFFv5s0yqXH62AiaVl9jzil2sV2FQsB5jB-_pQ-2i5YT4Tyw0PzB3ieJL-uvRkxbSajC"  id="touristInfo" ></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Nong_Han_near_Sakon_Nakhon%2C_Thailand.jpg"  id="touristInfo" ></img>
                 <img src="https://s.isanook.com/tr/0/ud/188/942203/thtravel201101102.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

@@ -22,10 +22,10 @@ class tak3 extends Component {
             
             <h1 align="center">Bhumibol Dam</h1>
             <div align="center">
-                <img src={require("./west/tak3.jpeg")}  id="touristInfo" ></img>
-                <img src={require("./west/tak32.jpeg")}  id="touristInfo" ></img>
-                <img src={require("./west/tak33.jpeg")} id="touristInfo" ></img>
-                <img src={require("./west/tak34.jpg")}  id="touristInfo" ></img>
+                <img src="https://www.egat.co.th/en/images/Media/PD/bhumibol/a_9.jpg"  id="touristInfo" ></img>
+                <img src="https://www.egat.co.th/en/images/Media/PD/bhumibol/a_7.jpg"  id="touristInfo" ></img>
+                <img src="https://www.egat.co.th/en/images/Media/PD/bhumibol/b_2.JPG"  id="touristInfo" ></img>
+                <img src="https://www.egat.co.th/en/images/Media/PD/bhumibol/a_5.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
           <ul class="infoAttract">

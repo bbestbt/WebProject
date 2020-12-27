@@ -44,7 +44,7 @@ class ratcha extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/ratcha4"> <img src="https://lh3.googleusercontent.com/proxy/WVZkMLwbKLNuo5pw-G4H4vy8J7C9QciuCtccj9cL6zr4ciR2BDKUIN1nV-o_9gBlFJQrY8mAcwjcVXoch1O7V_9vTGArQioHREH9YwNvOtGxzpzcuTCsW_F9ASs" class="allPlace" ></img></Link>
+        <Link to="/ratcha4"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/d3/a1/43/photo0jpg.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Bung Ta Lua Water Park</h6>    

@@ -22,10 +22,8 @@ class tak4 extends Component {
             
             <h1 align="center">Doi Thule</h1>
             <div align="center">
-                <img src={require("./west/tak4.jpg")}  id="touristInfo" ></img>
-                <img src={require("./west/tak42.jpg")}  id="touristInfo" ></img>
-                <img src={require("./west/tak43.jpg")} id="touristInfo" ></img>
-                <img src={require("./west/tak44.jpg")}  id="touristInfo" ></img>
+                <img src="https://media.istockphoto.com/photos/sunset-at-mountain-valley-beautiful-nature-in-doi-thule-tak-province-picture-id947140408?k=6&m=947140408&s=170667a&w=0&h=0BF7GKZh0Yu5PchZkVyaQ-bjyVwQaz8KiaxMCZoD-dE="  id="touristInfo" ></img>
+                <img src="https://thumbs.dreamstime.com/b/sunset-behind-mountain-doi-thule-tak-thailand-142193945.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

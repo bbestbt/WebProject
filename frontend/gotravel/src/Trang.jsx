@@ -47,7 +47,7 @@ class Trang extends Component {
 
 
         <div class="placeProvince">
-        <Link to="/Trang4"> <img src="https://lh3.googleusercontent.com/proxy/540exQS97Zbb_rl9GYFkVqe-fkilHVVoIDXTX5ujelhOYTLnqCfeLm41y1mU5Dr08ANBjfGun_7PbDlIlHx_DvYVscV-u6X00xtmvkd4ZJuN1Ga-FWry36ziprNgQDM" class="allPlace" ></img></Link>
+        <Link to="/Trang4"> <img src="https://2.bp.blogspot.com/-xgi-TMQpka0/TdAA_sDFy7I/AAAAAAAAGIw/wbPc_8dxHAo/s1600/khao-kob-cave-thailand.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Lay Khao Kob Cave</h6>    

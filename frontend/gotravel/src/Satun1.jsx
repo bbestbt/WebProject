@@ -22,7 +22,7 @@ class Satun1 extends Component {
             <h1 align="center">Mu Ko Phetra National Park</h1>
             <div align="center">
                 <img src="https://vietnamoriginal-travel.com/upload/images/phi-phi68.jpeg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/KK2Ll0CRnyz7NByho1SIG5WX1HmCgzEEPv3ygK-PUpU1qoYG8TwVlJkIt6PWoFNTx0SVb6vlhjrx8_OYmO4hY-p77A3B5pevt6w7-s1ZZy9NhKD1ezlWBw"  id="touristInfo" ></img>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/f4/41/31/img-20190321-103205-largejpg.jpg"  id="touristInfo" ></img>
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013353_1.jpeg"  id="touristInfo" ></img>
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03002969_1.jpeg"  id="touristInfo" ></img>
             </div>

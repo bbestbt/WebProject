@@ -46,7 +46,7 @@ class Satun extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/Satun4"> <img src="https://lh3.googleusercontent.com/proxy/QEcw3XsiRQLe-w59ZvPWF1GgkcW2b3J3amr44MnB_HTMh17o0rtbkfgPDXbc7bAw9oHOC9hlwMgkZcsZGDMatIelSiQuR2KzoRPhGodWNUqtJJyqaudq6hYEmbqf2bD7QavcQtudWyb8" class="allPlace" ></img></Link>
+        <Link to="/Satun4"> <img src="https://fastly.4sqi.net/img/general/600x600/50775557_-rs9K3Vt2zfvBXKwE0F-WmvP4o96-wVN5Wn76wzHkRA.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Thung Nui Hot Spring</h6>    

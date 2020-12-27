@@ -24,7 +24,7 @@ class surin3 extends Component {
             <div align="center">
                 <img src="https://www.discoverythailand.com/Images/Place/ID_864_Large.jpg"  id="touristInfo" ></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Prasat_Muang_Tam-027.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/fYXtNTG6tOQigMfH7vTOnQzk0rRopSdfcMFoqn-bcv6AD3ANgvdYLvuxz99HbUKhrnZI-F_2gxyQfdz5rwqtXXPmvyiop6OWbtZr8BR7RUA"  id="touristInfo" ></img>
+                <img src="https://patricklepetit.jalbum.net/SURIN/PHOTOS/MUEANG%20SURIN/Prasat%20Mueang%20Tee/I1122530_resize.jpg"  id="touristInfo" ></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Prasat_Muang_Sing_Historical_Park%2C_Thakilen%2C_Thailand_%28368971761%29.jpg/1280px-Prasat_Muang_Sing_Historical_Park%2C_Thakilen%2C_Thailand_%28368971761%29.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

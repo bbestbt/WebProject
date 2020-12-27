@@ -22,9 +22,9 @@ class ratcha4 extends Component {
             <h1 align="center">Bung Ta Lua Water Park</h1>
             <div align="center">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/d3/a1/44/photo1jpg.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/pUqAnbxbTk0m7P_5d2rQJpzSVU1x_0MfY4DF_Bzpis_SHg47IEBMWJ3-IUuKcoObWNLboQQruvC9bcMrHSi29cTZIMlFMmeYJHblAmyJOkFzawaQexqwQZ_IihI"  id="touristInfo" ></img>
-                <img src="https://itsbetterinthailand.com/wp-content/uploads/sites/4/2019/02/IMG_20180706_054934-800x600.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/jls0K1wjpIGCZNRF2HYtI6Vq5NOCH5qNHXlH2xy13Mpj2gML6DhEI_6hyI04Xeg0lGb4-z8NqNBJHs38pb8BJ0bSMBiCKeKO2M89c5V_qYJIk8nqV3n34_5mRF8"  id="touristInfo" ></img>  
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/49/66/00/chumphon-gate.jpg"  id="touristInfo" ></img>
+                <img src="https://youimg1.tripcdn.com/target/100a1f000001grlz19F74_C_750_500.jpg?proc=source%2Ftrip"  id="touristInfo" ></img>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/d3/a1/43/photo0jpg.jpg"  id="touristInfo" ></img>  
 
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
