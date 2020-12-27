@@ -591,5 +591,8 @@ province */
 }
 
 #bgText{
-  background-color: white;
+  /* background-color: white; */
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 2px #180c0c;
 }
