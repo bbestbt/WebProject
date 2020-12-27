@@ -71,7 +71,7 @@ class foodTicket extends Component {
                     }}
                 />
                     ) : null} 
-                {/* <NavbarMain /> */}
+                
                 <div class="topBanner" >
                 </div>
 

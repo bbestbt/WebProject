@@ -12,7 +12,7 @@ class SamutSongkhram2 extends Component {
     render() {  
         return (
         <div>
-             {/* <NavbarMain /> */}
+             
         <div class="topBanner" >
         </div>
         

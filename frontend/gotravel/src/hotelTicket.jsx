@@ -61,7 +61,7 @@ class hotelTicket extends Component {
             }}
           />
             ) : null} 
-             {/* <NavbarMain /> */}
+             
             <div class="topBanner" >
             </div>
         

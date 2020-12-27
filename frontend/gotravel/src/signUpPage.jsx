@@ -89,7 +89,7 @@ class signUpPage extends Component {
     render() {  
         return (
         <div>
-            {/* <NavbarMain /> */}
+            
         <div class="topBanner" >
             { <img src={require("./logo.png")} alt="logo"></img> }
         </div>

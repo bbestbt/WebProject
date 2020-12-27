@@ -18,29 +18,7 @@ class Recipe extends Component {
     //     }
     // }
 
-    state={
-        item: {
-        title: title,
-        price: price,
-        qty:quantity
-    }
-        
-    }
-    handleClick = event => {
-        fetch('http://127.0.0.1:8000/api/carts/',{
-            method: 'POST',
-            headers:{'Content-Type':'application/json'},
-            body: JSON.stringify(this.state.item)
-        })
-        .then(function(response) {
-            if (!response.ok) {
-                window.alert("error");
-                return
-            }
-            window.alert("done")
-            window.location.href="/home"
-        })
-      }
+   
     render() {
 
         return (
