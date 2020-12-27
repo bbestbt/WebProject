@@ -23,9 +23,9 @@ class yaso4 extends Component {
 </h1>
             <div align="center">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-c/768x250/0b/1d/c9/90/cave-buddhas.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/suLyr2vlf7_PxbpTY8JjOe2brLrq-HGn25Y8jrwGOUfYgfg2R4SF6OECVsKkR0vgYFrIWotWeHR2eamyncGv5eAJN80N"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/image/CustomPOI/Picture/P03009907_1.jpeg"  id="touristInfo" ></img>
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03004157_1.jpeg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/lj2zkL-yX9y14XqyoMJnm2SKYvmMvHjQKEQRaHvnZpvoHpf5jZqopnIRw5xUl0_VCXH7GU-rrXhcmY0xUjdEZptyhewl"  id="touristInfo" ></img>
+                <img src="https://image.freepik.com/free-photo/phu-tham-phra-waterfall-beautiful-waterfall-bung-kan-province-thailand_46740-891.jpg"  id="touristInfo" ></img>
 
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

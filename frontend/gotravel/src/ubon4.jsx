@@ -22,7 +22,7 @@ class ubon4 extends Component {
             <h1 align="center">Thung Si Mueang
 </h1>
             <div align="center">
-                <img src="https://www.mythailandphotos.com/wp-content/uploads/2015/08/IMG_8849.jpg"  id="touristInfo" ></img>
+                <img src="https://www.gerryganttphotography.com/images/ubonratchathani/DTHU0369WatThungSiMuang.jpg"  id="touristInfo" ></img>
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/b4/35/d0/photo3jpg.jpg"  id="touristInfo" ></img>
                 <img src="https://patricklepetit.jalbum.net/UBON%20RATCHATHANI/PHOTOS/MUEANG%20UBON/Thung%20Si%20Mueang/H0727483_resize.jpg"  id="touristInfo" ></img>
                 <img src="https://www.thailandguidebook.com/wp-content/uploads/2012/01/IMG_8846.jpg"  id="touristInfo" ></img>

@@ -30,14 +30,14 @@ class yaso extends Component {
         </div>
     
         <div class="placeProvince">
-        <Link to="/yaso2"> <img src="https://itsbetterinthailand.com/wp-content/uploads/sites/4/2019/03/That-Kong-Khao-Noi.jpg" class="allPlace" ></img></Link>
+        <Link to="/yaso2"> <img src="https://www.thailandguidebook.com/wp-content/uploads/2012/01/IMG_6735.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Phra That Kong Khao Noi</h6>    
         </div>
 
         <div class="placeProvince">
-        <Link to="/yaso3"> <img src="https://itsbetterinthailand.com/wp-content/uploads/sites/4/2018/02/yasothon-park-banner.jpg" class="allPlace" ></img></Link>
+        <Link to="/yaso3"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/85/ac/25/the-toad-museum.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">The Toad Museum

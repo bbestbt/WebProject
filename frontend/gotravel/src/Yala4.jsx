@@ -25,7 +25,7 @@ class Yala4 extends Component {
                 <img src="https://www.museumthailand.com/thumbFBCover.php?p=upload/cover/1534932004_1656.jpg"  id="touristInfo" ></img>
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/e0/c6/bd/betong-museum.jpg"  id="touristInfo" ></img>
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/e0/c6/c9/betong-museum.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/uwU8fe8dqt0GFjXyDNaMSMxtcro9xBh4IyQWdto5LbocARw_k5NkRR2UkaLqccQ5BkJx0KK6gxt4nXf0SpSSB6s6ObtdojPL70VggPYd3J33"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03008605_1.jpeg"  id="touristInfo" ></img>
 
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

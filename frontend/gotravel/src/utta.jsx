@@ -41,7 +41,7 @@ class utta extends Component {
 
 
         <div class="placeProvince">
-        <Link to="/utta3"> <img src="https://lh3.googleusercontent.com/proxy/fyyem6gS0AKu2PrvcTKk4L7oQLfd305t8SDGYOwC305L9CSFo1v5eVWPhbCHPx0hSQ0wnIdGLWQo7zeMfkrVDNuzQXaV1QSZ6QolslsDuIQJPz4QcLqyL3Ko9Ip4dw" alt="Wat Klang"  class="allPlace"  ></img></Link>
+        <Link to="/utta3"> <img src="https://www.thailandee.com/img/villes/roi-et/wat-klang-ming-mueang-7.jpg" alt="Wat Klang"  class="allPlace"  ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Wat Klang</h6>

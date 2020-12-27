@@ -30,7 +30,7 @@ class ubon extends Component {
         </div>
     
         <div class="placeProvince">
-        <Link to="/ubon2"> <img src="https://lh3.googleusercontent.com/proxy/KMNgYxbR6Ocxam0IkBQfH7Gr96hIzhdLu2_u95bnBdgWBUOBwP5gR5xKcy5qSMznJS2ZKNDifjFrScbcqvsXZs-ajOnzcpcTA4eWtklUtCe62iNmmWhKFjA" class="allPlace" ></img></Link>
+        <Link to="/ubon2"> <img src="https://thailandtourismdirectory.go.th/th/file/get/file/20171229b3870276fda02ac0007cdcd52b4dbe94113108.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Wat Pah Nanachat</h6>    
