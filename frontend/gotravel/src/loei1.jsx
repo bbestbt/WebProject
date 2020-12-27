@@ -21,7 +21,7 @@ class loei1 extends Component {
             
             <h1 align="center">Phu Ruea National Park</h1>
             <div align="center">
-                <img src="https://lh3.googleusercontent.com/proxy/kHiPifzWssTm30Ckv5ybEhds_xpijjAzXEMsM8dLgPm62iGwQGVVtOQXyey29phTnw1esTGA3IzPxQ7stZ5y4bRyteBml76WgxZJIIeVaVNJHWvHT7kk"  id="touristInfo" ></img>
+                <img src="https://www.thailandguidebook.com/wp-content/uploads/2012/01/IMG_7660.jpg"  id="touristInfo" ></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Phu_Ruea_View.jpg"  id="touristInfo" ></img>
                 <img src="https://www.discoverythailand.com/Images/Place/ID_1165_Large.jpg"  id="touristInfo" ></img>
                 <img src="https://thailandtourismdirectory.go.th/en/file/get/file/201801154f2ec78550efb5f2f01c2f3ef15dab73165436.jpg"  id="touristInfo" ></img>

@@ -23,8 +23,8 @@ class Chumphon2 extends Component {
             <div align="center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Mu_Ko_Chumphon_National_Park_Chumphon_Thailand.jpg"  id="touristInfo" ></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Mu_Ko_Chumphon_National_Park_03.jpg/1024px-Mu_Ko_Chumphon_National_Park_03.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/RaCdhU8lsRbvz6FombV-RV8Tcil0rf8xDh3OdPybXlomueujlWt9kUiznrDvxwWnzVCdUMwzGi5mIkOhh-3pK4mFuHg5n9-4uEntPnOSLV8ZLi1AL6Elc7Rr"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/70JbOaGIY7wb4G8POt6J73LUncZRDRvK8K-D_NuRCL9J6y_WYu3b8wIuSBSZG2KdIR6zvXDgA9ngMtath8eI0qwcBfQSc01NPjEwUmj5dFRKmnbvaeNFIahf8A"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03007460_1.jpeg"  id="touristInfo" ></img>
+                <img src="https://www.asiatravelgate.com/wp-content/uploads/2017/09/Mu-Koh-Chumphon-National-Park-Thailand-001.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

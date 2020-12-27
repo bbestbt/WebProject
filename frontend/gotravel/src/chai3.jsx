@@ -22,7 +22,7 @@ class chai3 extends Component {
             <h1 align="center">Star Tiger Zoo</h1>
             <div align="center">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/05/02/15/1a/chaiyaphum.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/dC7xEjvYMVYg1hn7nbpSr3Ms8s3EODOcsPqXkiyjKBnv7UqkDvX8mU-3bPjo0l3ecUzFSeUp5xCDTREreW8e6j5_wIKadZzsxprXHBs9"  id="touristInfo" ></img>
+                <img src="https://media.komchadluek.net/img/size1/2017/06/29/zog7h688cg97kjaib8k98eef.jpg?x-image-process=style/lg"  id="touristInfo" ></img>
                 <img src="https://lh3.googleusercontent.com/p/AF1QipM41pKCVOtaTp4dVUtIt01oxM4E0WIvbaMtTyk4=w1024-k"  id="touristInfo" ></img>
                 <img src="https://thailandtourismdirectory.go.th/th/file/get/file/201808286300522380768817251be8a2e3670983114548.jpg"  id="touristInfo" ></img>
                 

@@ -21,7 +21,7 @@ class AngThong1 extends Component {
             
             <h1 align="center">Wat Muang</h1>
             <div align="center">
-                <img src="https://lh3.googleusercontent.com/proxy/PRY81pxB9_3ki_LfRq74gl13X8OdDKmsfxLiRdXvbCulXU_4GkDqL1lrmPetVsX44r2uNVe8mxVAB8S4DCH0gIGL_2BzT7gUmSGyTO3AGRTFD8wN8YKlAAl42jbhVrh7bw4Vbe7xQw"  id="touristInfo" ></img>
+                <img src="https://amicimieiphukettravelagency.com/wp-content/uploads/2018/05/WAT-MUANG1.jpg"  id="touristInfo" ></img>
                 <img src="https://www.m-culture.go.th/angthong/images/article/news458/n20170324114104_1544.jpg"  id="touristInfo" ></img>
                 <img src="https://cms.dmpcdn.com/travel/2020/05/26/fafac540-9f50-11ea-81a6-432b2bbc8436_original.jpg"  id="touristInfo" ></img>
                 <img src="https://img-ha.mthcdn.com/RfZxwSptjyDd8k25hM43hOhZoKs=/travel.mthai.com/app/uploads/2015/10/DSC_9763-1.jpg"  id="touristInfo" ></img>

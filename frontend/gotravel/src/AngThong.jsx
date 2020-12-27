@@ -24,7 +24,7 @@ class AngThong extends Component {
         {/* <div align="center"> */}
 
         <div class="placeProvince">
-        <Link to="/AngThong1"> <img src="https://lh3.googleusercontent.com/proxy/PRY81pxB9_3ki_LfRq74gl13X8OdDKmsfxLiRdXvbCulXU_4GkDqL1lrmPetVsX44r2uNVe8mxVAB8S4DCH0gIGL_2BzT7gUmSGyTO3AGRTFD8wN8YKlAAl42jbhVrh7bw4Vbe7xQw" class="allPlace" ></img></Link>
+        <Link to="/AngThong1"> <img src="https://amicimieiphukettravelagency.com/wp-content/uploads/2018/05/WAT-MUANG1.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Wat Muang</h6>    

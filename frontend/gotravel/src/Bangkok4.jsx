@@ -23,8 +23,8 @@ class Bangkok4 extends Component {
             <div align="center">
                 <img src="https://rabbitweekend.com/wp-content/uploads/2020/06/cover-jim-thompson-1140x570.jpg"  id="touristInfo" ></img>
                 <img src="https://ed.edtfiles-media.com/static-cache/resize-cache/790x528/ud/images/1/44/131640/JTH_2_Cover.jpg"  id="touristInfo" ></img>
-                <img src="https://memeew08.files.wordpress.com/2016/04/thompson5-tile.jpg?w=640" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/CeS6umV2ZrETIhHO-UvcTUmN-_Y-D_yCiSefmqod1gfGKLBlsfgO-6V_Bl6eGXvs55CzJI8Qr4eYLQ6Uq53jWr7k1zXA5xbHnsjm2a8tsD-NneOH2UXx0iusOSNonLaSlj_tICETVCc355_Oe8RAbI0exIuZbJ_lJg"  id="touristInfo" ></img>
+                <img src="https://memeew08.files.wordpress.com/2016/04/thompson5-tile.jpg?w=640" id="touristInfo" ></img>
+                <img src="https://i.ytimg.com/vi/UwiW69j_SpA/maxresdefault.jpg"  id="touristInfo" ></img>
                 
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

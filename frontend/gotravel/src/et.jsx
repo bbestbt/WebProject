@@ -23,7 +23,7 @@ class et extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/et1"> <img src="https://lh3.googleusercontent.com/proxy/dZASHQkyj-gaZpJZyNwqAdW7I0pMnhXlxgZn2FsQMu2PRpJKPZHhz-GDtlJHVW0D-Yw8YDoLnGrc_1A5LVRdqLk1qWDVbRahYYNQL6wimLbQLjwN7rwBdHaoLjTZ0u0yHmpAyYyI_Wk_NKaR2i90HKaVO1vjpakngdI" class="allPlace" ></img></Link>
+        <Link to="/et1"> <img src="https://thailandtourismdirectory.go.th/th/file/get/file/20171128be53a0541a6d36f6ecb879fa2c584b08221458.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Wat Nuea</h6>    

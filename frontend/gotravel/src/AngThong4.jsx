@@ -23,8 +23,8 @@ class AngThong4 extends Component {
             <div align="center">
                 <img src="https://www.paiduaykan.com/province/central/angthong/pic/watsangkratai1.jpg"  id="touristInfo" ></img>
                 <img src="https://www.osmuppercentral.go.th/tmp/58cd825a60bf7244c76f76c281dc2b2b.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/nI5R4oFyiexr-ROtZGlLST97vjCBylt0fw7SYz6VzZw-E1YeJoOhJOaw4xUu2pRKHOQdyLeJT3vEJ3Hcp_g0bKJrgHgCpk7LHPT7x6jjow6jMyPLsEbD8VqgHnnL7tIVOxDUnSA"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/-gMCl9N3OEXeTlh_gb1FrutT_TcMEpKUAPoPS8p6UJA-vkvGZNl6I0jq6cpCrQLMG9q_FOT8m91BPeU6Y-8o0JFDHBnHcQ2bMItcEOY_eZKywxyse8f_th0on_ZEwE_qmdwHfm0"  id="touristInfo" ></img>
+                <img src="https://www.tour-bangkok-legacies.com/images/wat-sang-kratai-ang-thong-thailand-21887271.jpg"  id="touristInfo" ></img>
+                <img src="https://st4.depositphotos.com/2805411/27895/i/600/depositphotos_278958206-stock-photo-buddha-in-ancient-temple-at.jpg"  id="touristInfo" ></img>
 
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

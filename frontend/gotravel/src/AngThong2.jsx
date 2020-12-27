@@ -23,7 +23,7 @@ class AngThong2 extends Component {
             <div align="center">
                 <img src="https://www.paiduaykan.com/province/central/angthong/pic/bangsadet7.jpg"  id="touristInfo" ></img>
                 <img src="https://ed.edtfiles-media.com/ud/book/content/1/151/452520/image-810x480.png"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/FthI_QO1CxsZ7eZZ98xTDHv__lcXw4M6TTx_jpDQ3vBdnrDHbDClIIss2nh8Au3XwEw8hYYOhxBPEn0YFFEUTDmgxxQNmcPKpuwjLTgbnQj81EpD30E9Qt6EA-xX5I3v3MqFhcrPPv45AJC0JTcw2j-7Fc9x"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03017208_1.jpeg"  id="touristInfo" ></img>
                 <img src="https://thailandtourismdirectory.go.th/th/file/get/file/201810019d23c21daad2e49686b7d6629d6f1875104356.JPEG"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>

@@ -24,7 +24,7 @@ class kan2 extends Component {
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013278_1.jpeg"  id="touristInfo" ></img>
                 <img src="http://kanchanaburi.go.th/au/tourkan2015/images/IMG_1387.JPG"  id="touristInfo" ></img>
                 <img src="http://kanchanaburi.go.th/au/tourkan2015/images/8477.jpg"  id="touristInfo" ></img>
-                <img src="https://www.talontiew.com/wp-content/uploads/2019/01/DSC_7204-750x400.jpg"  id="touristInfo" ></img>
+                <img src="https://nashaplaneta.net/asia/thai/img_kanchanaburi/kanchanaburi-kitaiskiy-hram2.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

@@ -47,7 +47,7 @@ class chachoengsao extends Component {
 
 
         <div class="placeProvince">
-        <Link to="/chachoengsao4"> <img src="https://www.travel-chachoengsao.com/wp-content/uploads/2019/11/Ban-Mai-100-Year-Market-5.jpg" class="allPlace" ></img></Link>
+        <Link to="/chachoengsao4"> <img src="https://www.thailandtourismdirectory.go.th/en/file/get/file/20171023f0ed56f3128b4efe5c8b009658798289010425.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Ban Mai 100-Year Market</h6>    

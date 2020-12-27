@@ -24,7 +24,7 @@ class Krabi2 extends Component {
                 <img src="https://static.asiawebdirect.com/m/phuket/portals/krabi-hotels-com/homepage/seedo/shell-cemetery/pagePropertiesImage/shell-cemetery.jpg"  id="touristInfo" ></img>
                 <img src="https://static.asiawebdirect.com/m/phuket/portals/krabi-hotels-com/homepage/seedo/shell-cemetery/allParagraphs/BucketComponent/ListingContainer/01/image/sh600b.jpg"  id="touristInfo" ></img>
                 <img src="https://media.sciencephoto.com/c0/33/55/76/c0335576-800px-wm.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/k9sQksdj8bexY07kq6M1Teh86MSJ-XI9_pon6NQaqajhsFRnam_Go4cTi9eu1Z0qOJzJKvfX0NrMqaggfEDlsXgdX71czQ1HUA"  id="touristInfo" ></img>
+                <img src="https://www.krabi-magazine.com/wp-content/uploads/2018/11/fossil-shell-beach-3.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

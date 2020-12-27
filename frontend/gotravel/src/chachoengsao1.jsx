@@ -23,8 +23,8 @@ class chachoengsao1 extends Component {
             <div align="center">
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03005061_1.jpeg"  id="touristInfo" ></img>
                 <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03005061_2.jpeg"  id="touristInfo" ></img>
-                <img src="https://www.travel-chachoengsao.com/wp-content/uploads/2019/11/wat-sothonwararam-worawihan-2.jpg"  id="touristInfo" ></img>
-                <img src="https://www.travel-chachoengsao.com/wp-content/uploads/2019/11/D3S_73201-1.jpg"  id="touristInfo" ></img>
+                <img src="https://patricklepetit.jalbum.net/CHACHOENGSAO/PHOTOS/MUEANG%20CHACHOENGSAO/Wat%20Sothon%20Wararam%20Worawihan/I0621115_resize.jpg"  id="touristInfo" ></img>
+                <img src="https://thumbs.dreamstime.com/z/temple-sothonwararam-worawihan-chachoengsao-thailand-temple-wat-sothonwararam-worawihan-chachoengsao-thailand-161871961.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

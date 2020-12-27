@@ -21,10 +21,10 @@ class chachoengsao4 extends Component {
             
             <h1 align="center">Ban Mai 100-Year Market</h1>
             <div align="center">
-                <img src="https://www.travel-chachoengsao.com/wp-content/uploads/2019/11/Ban-Mai-100-Year-Market-5.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/j7BwU9vQE9JECAkXdsJfrqDHeHzzU5RVnxWUWLQ6epdZnbE7_F5kNK92fkk4MdYO4W7OJlQ3gF5JD8R4msr3Pxkoc-ylyMksW5kCqS7uoAIDW-ZVow"  id="touristInfo" ></img>
-                <img src="https://www.travel-chachoengsao.com/wp-content/uploads/2019/11/Ban-Mai-100-Year-Market-1.jpg"  id="touristInfo" ></img>
-                <img src="https://www.travel-chachoengsao.com/wp-content/uploads/2019/11/Ban-Mai-100-Year-Market-4-1024x384.jpg"  id="touristInfo" ></img>
+                <img src="https://www.thailandtourismdirectory.go.th/en/file/get/file/20171023f0ed56f3128b4efe5c8b009658798289010425.jpg"  id="touristInfo" ></img>
+                <img src="https://www.thailandtourismdirectory.go.th/en/file/get/type/thumbnail/file/2017110858916685a8f0d527523270aa6f05823f144524.jpg"  id="touristInfo" ></img>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/2d/42/5c/caption.jpg"  id="touristInfo" ></img>
+                <img src="https://amazing-bangkok.com/amzbkk/wp-content/uploads/ban-mai-riverside-market.jpg"  id="touristInfo" ></img>
             </div>
             <h2 align="center" id="toKnow">-Thing to know-</h2>
             <ul class="infoAttract">

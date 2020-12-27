@@ -22,7 +22,7 @@ class kala2 extends Component {
             <h1 align="center">phu faek forest park</h1>
             <div align="center">
                 <img src="https://i2.wp.com/destinationthailandnews.com/wp-content/uploads/2018/03/Phu-Faek-Forest-Park-Kalasin-03-1.jpg?fit=640%2C427&ssl=1"  id="touristInfo" ></img>
-                <img src="https://itsbetterinthailand.com/wp-content/uploads/sites/4/2019/03/phu-faek-national-forest-banner-1800x1013.jpg"  id="touristInfo" ></img>
+                <img src="https://tatapi.tourismthailand.org/tatfs/IMAGE/CustomPOI/Picture/P03012633_pic1.jpg"  id="touristInfo" ></img>
                 <img src="https://patricklepetit.jalbum.net/KALASIN/PHOTOS/OTHER%20DISTRICTS/Phu%20Faek%20Forest/thumbs/folder/Dinosaur%20Footprints_L0729466.jpg"  id="touristInfo" ></img>
                 <img src="https://2.bp.blogspot.com/-zpUevqKHons/TZ63sM72pcI/AAAAAAAAAAY/r6tjppbfjn8/s280/NP159T1P8.jpg"  id="touristInfo" ></img>
 

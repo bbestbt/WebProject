@@ -23,7 +23,7 @@ class chai extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/chai1"> <img src="https://itsbetterinthailand.com/wp-content/uploads/sites/4/2019/02/Mor-Hin-Khao-.jpg" class="allPlace" ></img></Link>
+        <Link to="/chai1"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Mo_Hin_Khao_at_night_%2810673170883%29.jpg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Mor Hin Khao</h6>    

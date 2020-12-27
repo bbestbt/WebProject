@@ -23,7 +23,7 @@ class amnat extends Component {
         </div>
 
         <div class="placeProvince">
-        <Link to="/amnat1"> <img src="https://lh3.googleusercontent.com/proxy/wgYJIjP7sPnpX1QnUFPOaUxJemUVmXTqfPyMXemv6WV84ySxU7nHr5ZSCghMZ-P0jR8OKFhPNpq6XD-uHILnF8eV-Bnn0a9OK0nY3yCQibKpGCQSNEttuw" class="allPlace" ></img></Link>
+        <Link to="/amnat1"> <img src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03001964_1.jpeg" class="allPlace" ></img></Link>
             <br></br>
             <br></br>
             <h6 align="center">Wat Tham Saeng Phet</h6>    

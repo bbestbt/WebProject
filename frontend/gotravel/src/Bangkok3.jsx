@@ -22,7 +22,7 @@ class Bangkok3 extends Component {
             <h1 align="center">Safari World</h1>
             <div align="center">
                 <img src="https://hello2day.com/wp-content/uploads/2020/07/safari-world-00-1050x701.jpg"  id="touristInfo" ></img>
-                <img src="https://lh3.googleusercontent.com/proxy/mxMt0lrTTb48SER3ssOYcokeIeGKSoWufMjBvGI9NqtBjqXorodsUQVBqn3hec2stmzgYQBG_xxNk3wWHR-rU-HChrEGKhgPmEAcYxSkFHUwGwQ9sAlBX2rvGMnpmca3HrluVmq1gK-g"  id="touristInfo" ></img>
+                <img src="https://i.ytimg.com/vi/tSMltsx-OsM/maxresdefault.jpg"  id="touristInfo" ></img>
                 <img src="https://i3.wp.com/www.tourthailandbooking.com/wp-content/uploads/2017/11/BKK_safari_world-16.jpg"  id="touristInfo" ></img>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-O1Kz9ncBFSHnUHd7jphfxiGAdRPkcgzDWQ&usqp=CAU"  id="touristInfo" ></img>
                 
