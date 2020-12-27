@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
 import {
-    // BrowserRouter as Router,
+    
     Link,
-    // Route,
-    // Switch,
+   
   } from 'react-router-dom';
  import maekasa from "./west/maekasa.jpg"
  import t2 from "./west/tak2.jpeg"

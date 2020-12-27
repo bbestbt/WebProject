@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
 import {
-    // BrowserRouter as Router,
+    
     Link,
-    // Route,
-    // Switch,
+   
   } from 'react-router-dom';
 import ticket from "./promo/ticket.png"
 import farm from "./promo/farm.jpg"

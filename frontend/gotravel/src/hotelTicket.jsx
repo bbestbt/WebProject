@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
 import {
-    // BrowserRouter as Router,
+    
     Link, Redirect,
-    // Route,
-    // Switch,
+   
   } from 'react-router-dom';
 import {hotelTicketURL,addToCartURL} from './constants'
 import hotel from "./promo/hotel2.png"
