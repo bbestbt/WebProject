@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Button } from "reactstrap";
+import {Row, Col,} from "reactstrap";
 import "../App.css";
 import { ReactComponent as Facebook } from "../assets/svg/facebook.svg";
 import { ReactComponent as Twitter } from "../assets/svg/twitter.svg";
@@ -10,11 +10,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="subComponent-lg" id="footerBody">
-        {/* <Container> */}
           <header className="headerTitle text-center">
-            {/* <p>
-              <b>CAN'T WAIT TO GET INVOLVED</b>
-            </p> */}
             <p>
               <b>CONNECT WITH US NOW</b>
             </p>
@@ -54,7 +50,6 @@ class Footer extends Component {
             <br />
             <p>copyright 2020 | gotravel</p>
           </footer>
-        {/* </Container> */}
       </div>
     );
   }

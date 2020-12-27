@@ -12,10 +12,7 @@ import {
 } from "reactstrap";
 
 import {
-  // BrowserRouter as Router,
   Link,
-  // Route,
-  // Switch,
 } from 'react-router-dom';
 
 import "../App.css";
@@ -28,7 +25,6 @@ class NavbarMain extends React.Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      // username:"",
       isOpen: false,
      login: false
     };
@@ -47,7 +43,6 @@ class NavbarMain extends React.Component {
   };
 
   render() {
-    // const { login } = this.props.login;
     return (
       <div>
         <Navbar
@@ -63,10 +58,6 @@ class NavbarMain extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 
-                {/* <NavItem>
-                  <NavLink href="#about">About</NavLink>
-                </NavItem> */}
-                
                 <NavItem>
                   
                   <Link to="/planTripPage"><NavLink >Recommended trip</NavLink></Link>
@@ -75,23 +66,13 @@ class NavbarMain extends React.Component {
                   
                   <Link to="/Promo"><NavLink>Promotion</NavLink></Link>
                 </NavItem>
-                {/* <NavItem>
-                <Link to="/addfav"><NavLink href="#servicesBody">Search</NavLink></Link>
-                </NavItem> */}
-                {/* <NavItem>
-                  <NavLink href="#footerBody">Contact</NavLink>
-                </NavItem> */}
                 <Link to="./Cart">
                 <Button><img src={cart} width="20" height="20"></img></Button>
                 </Link>
 
                   <Link to="/login"><Button onClick={this.changeState} color="success">
-                    {/* {this.state.login ? "Login" : " Log out"} */}
                     LogIn/Out
                     </Button></Link>
-                {/* <NavItem>
-                    <NavLink>{this.username}</NavLink>
-                </NavItem> */}
                 
               </Nav>
             </Collapse>

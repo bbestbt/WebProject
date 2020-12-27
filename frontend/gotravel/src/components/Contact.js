@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Button } from "reactstrap";
+import {Row, Col, Button } from "reactstrap";
 import "../App.css";
 import { ReactComponent as Phone } from "../assets/svg/phone.svg";
 import { ReactComponent as MapPin } from "../assets/svg/map-pin.svg";
@@ -9,10 +9,8 @@ class Contact extends Component {
   render() {
     return (
       <div className="subComponent-lg" id="contactBody">
-        {/* <Container> */}
           <header className="headerTitle text-center">
             <h1>Contact</h1>
-            {/* <p>GET IN TOUCH WITH US</p> */}
           </header>
           <section className="svg-group text-center">
             <Row>
@@ -72,7 +70,6 @@ class Contact extends Component {
               </Row>
             </form>
           </section>
-        {/* </Container> */}
       </div>
     );
   }
