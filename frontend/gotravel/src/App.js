@@ -5,7 +5,7 @@ import { Router, Link } from "@reach/router";
 import { BrowserRouter, Route, Switch,withRouter} from "react-router-dom"
 import NavbarMain from "./components/Navbar";
 import Home from "./pages/Home";
-import Tour from "./pages/Tour";
+
 import PlanTripPage from './planTripPage';
 import SignUpPage from './signUpPage';
 import LoginPage from './login';
